@@ -1,9 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Zattix
+# Rent A Partment
 
-> Zattix is the Capstone Project assigned to me by Microverse for the 4th week of the HTML & CSS3 Module.
-> Original Design by: <a href="https://www.behance.net/gallery/24796463/ZATTIX" target="_blank">Mohammed Awad</a>
+> Rent A Partment iss the Capstone Project assigned to me by Microverse for the 4th week of the HTML & CSS3 Module.
+> Original Design (Zattix) by: <a href="https://www.behance.net/gallery/24796463/ZATTIX" target="_blank">Mohammed Awad</a>
 
 <img src="./app_screenshot.png" alt="Project Preview"></img>
 
@@ -19,7 +19,7 @@ Which means that the cellphone and tablet versions for the results page were act
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://fernandorpm.github.io/rent-a-partment/)
 
 
 ## Getting Started
