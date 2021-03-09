@@ -168,7 +168,8 @@ nav {
 .carousel-apartments {
   padding: 0 5%; }
 
-.carousel-control-next, .carousel-control-prev {
+.carousel .carousel-control-next,
+.carousel .carousel-control-prev {
   width: 5%; }
 
 .section-icon {
