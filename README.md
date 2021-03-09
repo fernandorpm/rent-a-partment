@@ -5,7 +5,7 @@
 > Rent A Partment iss the Capstone Project assigned to me by Microverse for the 4th week of the HTML & CSS3 Module.
 > Original Design (Zattix) by: <a href="https://www.behance.net/gallery/24796463/ZATTIX" target="_blank">Mohammed Awad</a>
 
-<img src="./app_screenshot.png" alt="Project Preview"></img>
+![Project Preview](rent-a-partment.gif)
 
 The given design had a home page with cellphone, tablet and desktop views and a search results page with desktop view.
 Which means that the cellphone and tablet versions for the results page were actually created exclusively for this project.
@@ -34,7 +34,7 @@ Create a new folder/directory for the project
 
 - open your terminal on your OS
 - go to the desired folder/directory that you want to have the project in
-- git clone https://github.com/fernandorpm/zattix.git
+- git clone https://github.com/fernandorpm/rent-a-partment.git
 
 ## Authors
 
@@ -49,7 +49,7 @@ Create a new folder/directory for the project
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](issues/2).
 
 ## Show your support
 
