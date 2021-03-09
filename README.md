@@ -1,18 +1,21 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Zattix
 
-> One paragraph statement about the project.
+> Zattix is the Capstone Project assigned to me by Microverse for the 4th week of the HTML & CSS3 Module.
+> Original Design by: <a href="https://www.behance.net/gallery/24796463/ZATTIX" target="_blank">Mohammed Awad</a>
 
-![screenshot](./app_screenshot.png)
+<img src="./app_screenshot.png" alt="Project Preview"></img>
 
-Additional description about the project and its features.
+The given design had a home page with cellphone, tablet and desktop views and a search results page with desktop view.
+Which means that the cellphone and tablet versions for the results page were actually created exclusively for this project.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- Sassy CSS
+- Bootstrap
+- Material Design Icons
 
 ## Live Demo
 
@@ -21,39 +24,26 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
+Be sure to have a github account and that this account is connected locally on your PC
 
 ### Setup
 
+Create a new folder/directory for the project
+
 ### Install
 
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- open your terminal on your OS
+- go to the desired folder/directory that you want to have the project in
+- git clone https://github.com/fernandorpm/zattix.git
 
 ## Authors
 
-👤 **Author1**
+👤 **Fernando R P Marques**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: <a href="https://github.com/fernandorpm" target="_blank">@fernandorpm</a>
+- Twitter: <a href="https://twitter.com/rpm_fernando" target="_blank">@rpm_fernando</a>
+- LinkedIn: <a href="https://linkedin.com/in/fernandorpm" target="_blank">Fernando R P Marques</a>
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 

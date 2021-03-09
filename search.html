@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/global_styles.css">
+  <title>RENT A PARMENT - your home is right here</title>
+</head>
+
+<body class="h-s text-black bg-light">
+
+  <!-- Header -->
+  <header class="position-relative py-5">
+
+    <div class="d-none d-md-block space-for-nav"></div>
+    <div class="d-md-none space-for-nav-smaller"></div>
+
+    <div class="header-content">
+      <h1 class="g-b text-white text-center main-title m-0">RENT A PARTMENT</h1>
+      <h2 class="g-l text-white text-center sub-title">your home is right here ♡</h2>
+    </div>
+
+    <div class="header-content">
+
+      <form action="./search.html" class="header-content">
+        <div class="mx-auto container d-flex flex-column flex-md-row justify-content-center">
+
+          <div class="col-12 col-md-3 col-xl-2 p-0 small-margin-right mb-1">
+            <select class="p-3 border-0 rounded-0 form-select" id="departments" name="departments">
+              <option value="" disabled selected>All Departments</option>
+              <option value="Electronics">Electronics</option>
+              <option value="Fashion">Fashion</option>
+              <option value="Automotives">Automotives</option>
+              <option value="Flats">Flats</option>
+            </select>
+          </div>
+
+          <input class="col-12 col-md-3 p-3 border-0 rounded-0 small-margin-right mb-1" type="text"
+            placeholder="What do you search for?">
+
+          <input class="col-12 col-md-3 p-3 border-0 rounded-0 large-margin-right mb-1" type="text" placeholder="Where?">
+
+          <input class="col-12 col-md-3 col-xl-2 py-3 px-5 bg-black text-white border-0 h-m hover-brightness transition-03 mb-1" type="submit"
+            value="Search">
+        </div>
+      </form>
+    </div>
+  </header>
+
+  <!-- Navbar Top (Grey one) -->
+  <nav class="navbar navbar-expand navbar-dark bg-black position-fixed w-100 top-0 py-0 py-md-2">
+    <div class="d-none d-xl-block col-xl-1"></div>
+    <div class="container-fluid col-12 col-xl-10">
+
+      <!-- Brand Navbar -->
+      <a class="navbar-brand g-b p-0 m-0 me-sm-2" href="./index.html">
+        <img src="./assets/images/logo/logo_nav.png" class="logo-nav" alt="Logo green">
+        <p class="d-none d-md-inline">RENT A PARTMENT</p>
+        <p class="d-inline d-md-none">R APT</p>
+      </a>
+
+      <!-- Page Options Navbar -->
+      <div class="ps-lg-3 navbar-collapse d-flex justify-content-end justify-content-lg-start">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-lg-2 h-m">
+            <a class="nav-link active link-text p-0 ps-2 p-sm-2" aria-current="page" href="./index.html">
+              <svg class="nav-icon" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" />
+              </svg>
+              <p class="d-none d-md-inline">HOME</p>
+            </a>
+          </li>
+          <li class="nav-item mx-lg-2 h-m">
+            <a class="nav-link link-text p-0 ps-4 p-sm-2" href="#">
+              <svg class="nav-icon" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                  d="M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3M7,7V9H9V7H7M11,7V9H13V7H11M15,7V9H17V7H15M7,11V13H9V11H7M11,11V13H13V11H11M15,11V13H17V11H15M7,15V17H9V15H7M11,15V17H13V15H11M15,15V17H17V15H15Z" />
+              </svg>
+              <p class="d-none d-md-inline">COLLECTIONS</p>
+            </a>
+          </li>
+          <li class="nav-item mx-lg-2 h-m">
+            <a class="nav-link link-text p-0 ps-4 p-sm-2" href="#">
+              <svg class="nav-icon" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                  d="M17,18C15.89,18 15,18.89 15,20A2,2 0 0,0 17,22A2,2 0 0,0 19,20C19,18.89 18.1,18 17,18M1,2V4H3L6.6,11.59L5.24,14.04C5.09,14.32 5,14.65 5,15A2,2 0 0,0 7,17H19V15H7.42A0.25,0.25 0 0,1 7.17,14.75C7.17,14.7 7.18,14.66 7.2,14.63L8.1,13H15.55C16.3,13 16.96,12.58 17.3,11.97L20.88,5.5C20.95,5.34 21,5.17 21,5A1,1 0 0,0 20,4H5.21L4.27,2M7,18C5.89,18 5,18.89 5,20A2,2 0 0,0 7,22A2,2 0 0,0 9,20C9,18.89 8.1,18 7,18Z" />
+              </svg>
+              <p class="d-none d-md-inline">PURCHASE LIST</p>
+            </a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="btn bg-green d-none d-md-block text-light h-m py-2 px-4 hover-brightness transition-03 link-text"
+              href="#" tabindex="-1" aria-disabled="true">POST AN AD</a>
+          </li>
+        </ul>
+
+      </div>
+
+      <!-- User Side Navbar -->
+      <div class="navbar-nav d-none d-md-flex justify-content-end">
+
+        <a href="#" class="nav-link">
+          <div class="position-relative message-div d-flex align-items-center">
+            <svg class="nav-icon" viewBox="0 0 24 24">
+              <path fill="currentColor"
+                d="M18,8H6V6H18V8M18,11H6V9H18V11M18,14H6V12H18V14M22,4A2,2 0 0,0 20,2H4A2,2 0 0,0 2,4V16A2,2 0 0,0 4,18H18L22,22V4Z" />
+            </svg>
+            <div class="notification-div text-white bg-danger rounded-circle text-center position-absolute top-0 end-0">
+              <p>3</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="#" class="d-flex align-items-center nav-link p-0 ms-lg-4">
+          <p class="m-0 h-m d-none d-lg-block">John Doe</p>
+          <img class="rounded-circle ms-3 d-none d-lg-block" src="./assets/images/person/john-doe.jpeg" width="50" alt="">
+        </a>
+
+
+      </div>
+    </div>
+
+    <div class="d-none d-xl-block col-xl-1"></div>
+  </nav>
+
+  <main class="container-fluid px-md-5 pb-4">
+
+    <div class="manual-flex manual-flex-align-start manual-flex-mobile-column">
+      <!-- Search Filters -->
+      <section class="pt-2 pe-md-3 search-form">
+
+        <!-- Payment Type Form -->
+        <form action="submit">
+          <input class="align-middle" type="checkbox" id="rent" name="rent">
+          <label class="ms-2 me-4 align-middle fs-small" for="rent">Rent</label>
+
+          <input class="align-middle" type="checkbox" id="ownership" name="ownership">
+          <label class="ms-2 align-middle fs-small" for="ownership">Ownership</label>
+        </form>
+
+        <br>
+
+        <!-- Living Type Form -->
+        <form action="submit">
+          <h4 class="fs-medium m-0">Type</h4>
+          <hr class="my-1">
+
+          <input class="align-middle" type="checkbox" id="entirePlace" name="entirePlace">
+          <label class="ms-2 align-middle fs-small" for="entirePlace">Entire Place</label>
+          <br>
+
+          <input class="align-middle" type="checkbox" id="privateRoom" name="privateRoom">
+          <label class="ms-2 align-middle fs-small" for="privateRoom">Private Room</label>
+          <br>
+
+          <input class="align-middle" type="checkbox" id="sharedRoom" name="sharedRoom">
+          <label class="ms-2 align-middle fs-small" for="sharedRoom">Shared Room</label>
+        </form>
+
+        <br>
+
+        <!-- Amount of Rooms Form -->
+        <form action="submit">
+          <h4 class="fs-medium m-0">Size</h4>
+          <hr class="my-1">
+
+          <input class="align-middle" type="checkbox" id="2to4rooms" name="2to4rooms">
+          <label class="ms-2 align-middle fs-small" for="2to4rooms">2-4 Rooms</label>
+          <br>
+
+          <input class="align-middle" type="checkbox" id="5rooms" name="5rooms">
+          <label class="ms-2 align-middle fs-small" for="5rooms">5+ Rooms</label>
+          <br>
+
+          <input class="align-middle" type="checkbox" id="custom" name="custom">
+          <label class="ms-2 align-middle fs-small" for="custom">Custom</label>
+          <input class="align-middle input-height" type="text" size="5">
+        </form>
+
+        <br>
+
+        <!-- Price Range Form -->
+        <form action="submit">
+          <h4 class="fs-medium m-0">Price Range</h4>
+          <hr class="my-1">
+
+          <input class="align-middle" type="checkbox" id="from100to400" name="from100to400">
+          <label class="ms-2 align-middle fs-small" for="from100to400">100$ - 400$</label>
+          <br>
+
+          <input class="align-middle" type="checkbox" id="from400to1000" name="from400to1000">
+          <label class="ms-2 align-middle fs-small" for="from400to1000">400$ - 1000$</label>
+          <br>
+
+          <input class="align-middle" type="checkbox" id="from1000to2000" name="from1000to2000">
+          <label class="ms-2 align-middle fs-small" for="from1000to2000">1000$ - 2000$</label>
+          <br>
+
+          <input class="align-middle" type="checkbox" id="from2000to3000" name="from2000to3000">
+          <label class="ms-2 align-middle fs-small" for="from2000to3000">2000$ - 3000$</label>
+          <br>
+
+          <input class="align-middle" type="checkbox" id="from3000to5000" name="from3000to5000">
+          <label class="ms-2 align-middle fs-small" for="from3000to5000">3000$ - 5000$</label>
+          <br>
+
+          <input class="align-middle" type="checkbox" id="plus5000" name="plus5000">
+          <label class="ms-2 align-middle fs-small" for="plus5000">5000$</label>
+        </form>
+
+      </section>
+
+      <!-- Search Results -->
+      <section class="border-top mt-5 mt-md-0 border-md-only">
+        <h6 class="text-grey p-3 border-bottom m-0"><b class="h-b">138</b> results for "<b class="h-b">Flat</b>" at <b
+            class="h-b">San Francisco</b> in Category <b class="h-b">Flat</b></h6>
+
+        <!-- First Apartment -->
+        <article class="p-0 pb-5 p-md-3 border-bottom manual-flex manual-flex-mobile-column">
+          <!-- Flat Carousel -->
+          <div id="firstCarousel" class="carousel slide img-search-result" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/images/flat/flat1.png" class="d-block w-100" alt="flat_picture1">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/images/flat/flat1.png" class="d-block w-100" alt="flat_picture1">
+              </div>
+            </div>
+
+            <!-- Next and Previous Buttons -->
+            <div class="position-absolute bottom-0 end-0">
+              <button class="bg-dark border-0 text-green" type="button" data-bs-target="#firstCarousel"
+                data-bs-slide="prev">
+                <span aria-hidden="true">
+                  <svg class="carousel-chevron" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
+                  </svg>
+                </span>
+              </button>
+              <button class="bg-dark border-0 text-green negative-margin-chevron" type="button"
+                data-bs-target="#firstCarousel" data-bs-slide="next">
+                <span aria-hidden="true">
+                  <svg class="carousel-chevron" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+                  </svg>
+                </span>
+              </button>
+            </div>
+
+          </div>
+
+          <!-- Flat Details -->
+          <div class="pt-4 pt-md-0 ps-md-4">
+            <!-- MANUAL FLEX: Title and Dropdown Add Button -->
+            <div class="manual-flex">
+              <h4 class="fs-large m-0 pe-3">Flat in New York 3 rooms, 1 suite, kitchen and 2 bathrooms</h4>
+
+              <div class="dropdown">
+                <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button" id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  +
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                  <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                  <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Deal Type, Description, and Location -->
+            <div>
+              <h6 class="text-green fs-medium m-0">200 M, Rent</h6>
+              <br>
+              <p class="text-grey">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti saepe repudiandae accusantium modi non
+                doloremque corporis, esse veritatis quidem suscipit praesentium optio adipisci quaerat reprehenderit
+                minima
+                debitis, nihil facere dicta?
+              </p>
+              <p class="text-black"><b class="h-b">Location: </b>21 Start Street, New York, US</p>
+            </div>
+
+            <!-- MANUAL FLEX: Date posted and Buttons -->
+            <div class="manual-flex">
+              <p class="text-grey">23 Nov 2020</p>
+              <button class="btn bg-green text-white h-b" type="button">3300$</button>
+            </div>
+          </div>
+        </article>
+
+        <div class="space-between-search border-bottom"></div>
+
+        <!-- Second Apartment -->
+        <article class="p-0 pb-5 p-md-3 border-bottom manual-flex manual-flex-mobile-column bg-white">
+          <!-- Flat Carousel -->
+          <div id="secondCarousel" class="carousel slide img-search-result" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/images/flat/flat2.png" class="d-block w-100" alt="flat_picture1">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/images/flat/flat2.png" class="d-block w-100" alt="flat_picture2">
+              </div>
+            </div>
+
+            <!-- Next and Previous Buttons -->
+            <div class="position-absolute bottom-0 end-0">
+              <button class="bg-dark border-0 text-green" type="button" data-bs-target="#secondCarousel"
+                data-bs-slide="prev">
+                <span aria-hidden="true">
+                  <svg class="carousel-chevron" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
+                  </svg>
+                </span>
+              </button>
+              <button class="bg-dark border-0 text-green negative-margin-chevron" type="button"
+                data-bs-target="#secondCarousel" data-bs-slide="next">
+                <span aria-hidden="true">
+                  <svg class="carousel-chevron" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+                  </svg>
+                </span>
+              </button>
+            </div>
+
+          </div>
+
+          <!-- Flat Details -->
+          <div class="pt-4 pt-md-0 ps-md-4">
+            <!-- MANUAL FLEX: Title and Dropdown Add Button -->
+            <div class="manual-flex">
+              <h4 class="fs-large m-0 pe-3">Family Apartment 2 suites in Texas right next to beautiful lake</h4>
+
+              <div class="dropdown">
+                <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button" id="dropdownMenuButton2"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  +
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                  <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                  <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                  <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Deal Type, Description, and Location -->
+            <div>
+              <h6 class="text-green fs-medium m-0">1100 M, Ownership</h6>
+              <br>
+              <p class="text-grey">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga deserunt necessitatibus explicabo qui
+                doloremque. Veritatis odio distinctio quas saepe ut sed reprehenderit ea autem praesentium. Assumenda
+                sint
+                nulla fugit consequatur!
+              </p>
+              <p class="text-black"><b class="h-b">Location: </b>721 Middle Street, Texas, US</p>
+            </div>
+
+            <!-- MANUAL FLEX: Date posted and Buttons -->
+            <div class="manual-flex">
+              <p class="text-grey">01 Jan 2021</p>
+              <div>
+                <button type="button" class="btn bg-green text-white h-b px-4 me-3">Give a Call</button>
+                <button type="button" class="btn bg-green text-white h-b">1350$</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <div class="space-between-search border-bottom"></div>
+
+        <!-- Third Apartment -->
+        <article class="p-0 pb-5 p-md-3 border-bottom manual-flex manual-flex-mobile-column">
+          <!-- Flat Carousel -->
+          <div id="thirdCarousel" class="carousel slide img-search-result" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/images/flat/flat3.png" class="d-block w-100" alt="flat_picture1">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/images/flat/flat3.png" class="d-block w-100" alt="flat_picture1">
+              </div>
+            </div>
+
+            <!-- Next and Previous Buttons -->
+            <div class="position-absolute bottom-0 end-0">
+              <button class="bg-dark border-0 text-green" type="button" data-bs-target="#thirdCarousel"
+                data-bs-slide="prev">
+                <span aria-hidden="true">
+                  <svg class="carousel-chevron" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
+                  </svg>
+                </span>
+              </button>
+              <button class="bg-dark border-0 text-green negative-margin-chevron" type="button"
+                data-bs-target="#thirdCarousel" data-bs-slide="next">
+                <span aria-hidden="true">
+                  <svg class="carousel-chevron" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+                  </svg>
+                </span>
+              </button>
+            </div>
+
+          </div>
+
+          <!-- Flat Details -->
+          <div class="pt-4 pt-md-0 ps-md-4">
+            <!-- MANUAL FLEX: Title and Dropdown Add Button -->
+            <div class="manual-flex">
+              <h4 class="fs-large m-0 pe-3">Beautiful Modern Studio for rent</h4>
+
+              <div class="dropdown">
+                <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button" id="dropdownMenuButton3"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  +
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+                  <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                  <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                  <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Deal Type, Description, and Location -->
+            <div>
+              <h6 class="text-green fs-medium m-0">990 M, Rent</h6>
+              <br>
+              <p class="text-grey">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint neque voluptates nobis aliquam eius, ut ex
+                laudantium, veniam nihil dolorum debitis! Vero, rem consequatur. Impedit sit delectus laborum deserunt
+                error!
+              </p>
+              <p class="text-black"><b class="h-b">Location: </b>5 Endless Street, Alabama, US</p>
+            </div>
+
+            <!-- MANUAL FLEX: Date posted and Buttons -->
+            <div class="manual-flex">
+              <p class="text-grey">8 Mar 2021</p>
+              <button class="btn bg-green text-white h-b" type="button">1100$</button>
+            </div>
+          </div>
+        </article>
+
+        <div class="space-between-search border-bottom"></div>
+
+        <!-- Fourth Apartment -->
+        <article class="p-0 pb-5 p-md-3 border-bottom manual-flex manual-flex-mobile-column">
+          <!-- Flat Carousel -->
+          <div id="fourthCarousel" class="carousel slide img-search-result" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/images/flat/flat4.png" class="d-block w-100" alt="flat_picture1">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/images/flat/flat4.png" class="d-block w-100" alt="flat_picture1">
+              </div>
+            </div>
+
+            <!-- Next and Previous Buttons -->
+            <div class="position-absolute bottom-0 end-0">
+              <button class="bg-dark border-0 text-green" type="button" data-bs-target="#fourthCarousel"
+                data-bs-slide="prev">
+                <span aria-hidden="true">
+                  <svg class="carousel-chevron" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
+                  </svg>
+                </span>
+              </button>
+              <button class="bg-dark border-0 text-green negative-margin-chevron" type="button"
+                data-bs-target="#fourthCarousel" data-bs-slide="next">
+                <span aria-hidden="true">
+                  <svg class="carousel-chevron" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+                  </svg>
+                </span>
+              </button>
+            </div>
+
+          </div>
+
+          <!-- Flat Details -->
+          <div class="pt-4 pt-md-0 ps-md-4">
+            <!-- MANUAL FLEX: Title and Dropdown Add Button -->
+            <div class="manual-flex">
+              <h4 class="fs-large m-0 pe-3">42 m² flat for single persons - no pets allowed</h4>
+
+              <div class="dropdown">
+                <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button" id="dropdownMenuButton4"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  +
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton4">
+                  <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                  <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                  <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Deal Type, Description, and Location -->
+            <div>
+              <h6 class="text-green fs-medium m-0">2200 M, Rent</h6>
+              <br>
+              <p class="text-grey">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti saepe repudiandae accusantium modi non
+                doloremque corporis, esse veritatis quidem suscipit praesentium optio adipisci quaerat reprehenderit
+                minima
+                debitis, nihil facere dicta?
+              </p>
+              <p class="text-black"><b class="h-b">Location: </b>6521 French Street, Paris, US</p>
+            </div>
+
+            <!-- MANUAL FLEX: Date posted and Buttons -->
+            <div class="manual-flex">
+              <p class="text-grey">23 Nov 2020</p>
+              <button class="btn bg-green text-white h-b" type="button">2200$</button>
+            </div>
+          </div>
+        </article>
+
+        <div class="space-between-search border-bottom"></div>
+
+      </section>
+    </div>
+
+    <!-- Pagination -->
+    <nav class="manual-flex manual-flex-column pt-4" aria-label="search-navigation">
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link text-grey h-b pt-2" href="#">1</a></li>
+        <li class="page-item active" aria-current="page">
+          <a class="page-link text-grey h-b pt-2" href="#">2</a>
+        </li>
+        <li class="page-item"><a class="page-link text-grey h-b pt-2" href="#">3</a></li>
+      </ul>
+    </nav>
+
+
+  </main>
+
+  <footer class="w-100 bg-white border-top">
+    <nav class="container container-fluid row mx-auto py-4">
+
+      <!-- Zattix logo and Info -->
+      <div class="col-12 col-md-4 d-flex flex-column align-items-center text-justify mb-1">
+        <a class="navbar-brand g-b text-grey link-dark" href="#">
+          <img src="./assets/images/logo/logo_footer.png" class="logo-footer" alt="Logo grey">
+          RENT A PARTMENT
+        </a>
+        <p class="h-m text-grey mt-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime magni minus excepturi nisi est atque
+          assumenda! Consequatur illum perspiciatis ipsa corporis vitae, aspernatur cupiditate quaerat, quam distinctio,
+          doloremque voluptate obcaecati?
+        </p>
+      </div>
+
+      <!-- Categories -->
+      <div class="col-12 col-md-3 ps-md-4 mb-4">
+        <h6 class="text-green">CATEGORIES</h6>
+        <hr class="my-1">
+
+        <div class="d-md-flex justify-content-between pt-2">
+
+          <ul class="p-0 m-0 list-unstyled">
+            <li><a href="#" class="text-grey link-dark fs-small">Everyday</a></li>
+            <li><a href="#" class="text-grey link-dark fs-small">Unique</a></li>
+            <li><a href="#" class="text-grey link-dark fs-small">Premium</a></li>
+            <li><a href="#" class="text-grey link-dark fs-small">Elite</a></li>
+            <li><a href="#" class="text-grey link-dark fs-small">VIP</a></li>
+            <li><a href="#" class="text-grey link-dark fs-small">Deluxe</a></li>
+          </ul>
+
+          <ul class="p-0 m-0 list-unstyled">
+            <li><a href="#" class="text-grey link-dark fs-small">Everyday</a></li>
+            <li><a href="#" class="text-grey link-dark fs-small">Unique</a></li>
+            <li><a href="#" class="text-grey link-dark fs-small">Premium</a></li>
+            <li><a href="#" class="text-grey link-dark fs-small">Elite</a></li>
+            <li><a href="#" class="text-grey link-dark fs-small">VIP</a></li>
+            <li><a href="#" class="text-grey link-dark fs-small">Deluxe</a></li>
+          </ul>
+
+        </div>
+      </div>
+
+      <!-- Navigation -->
+      <div class="col-12 col-md-2 ps-md-4 mb-4">
+        <h6 class="text-green">NAVIGATION</h6>
+        <hr class="my-1">
+
+        <div class="d-md-flex justify-content-between pt-2">
+
+          <ul class="p-0 m-0 list-unstyled">
+            <li><a href="#" class="text-grey link-dark fs-small">Home</a></li>
+            <li><a href="#" class="text-grey link-dark fs-small">Sign In</a></li>
+            <li><a href="#" class="text-grey link-dark fs-small">Sign Up</a></li>
+            <li><a href="#" class="text-grey link-dark fs-small">Terms & Conditions</a></li>
+            <li><a href="#" class="text-grey link-dark fs-small">FAQ</a></li>
+            <li><a href="#" class="text-grey link-dark fs-small">Help</a></li>
+          </ul>
+
+        </div>
+
+      </div>
+
+      <!-- Other -->
+      <div class="col-12 col-md-3 ps-md-4 pt-4">
+
+        <div class="d-flex flex-column flex-md-row align-items-center justify-content-end mb-3">
+          <h6 class="text-green mb-0 me-3">COUNTRY</h6>
+          <button class="btn btn-outline-secondary h-b other-footer-btn" type="button">Switzerland</button>
+        </div>
+
+        <div class="d-flex flex-column flex-md-row align-items-center justify-content-end mb-3">
+          <h6 class="text-green mb-0 me-3">LANGUAGE</h6>
+          <button class="btn btn-outline-secondary h-b other-footer-btn" type="button">English</button>
+        </div>
+
+        <div class="d-flex flex-column flex-md-row align-items-center justify-content-end">
+          <h6 class="text-green mb-0 me-3">CURRENCY</h6>
+          <button class="btn btn-outline-secondary h-b other-footer-btn" type="button">US Dollar</button>
+        </div>
+
+      </div>
+
+    </nav>
+    <hr>
+
+    <p class="py-2 text-grey fs-small text-center">Copyright C 2021 Zattix.com. All Rights Reserved. Designed by
+      Mohammed Awad. Developed by Fernando R P Marques.</p>
+  </footer>
+
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
