@@ -136,7 +136,7 @@
 
     <!-- Hot Ads -->
     <section class="bg-white border-bottom">
-      <div class="container container-fluid py-4 px-4">
+      <div class="container-md container-fluid py-4 px-4">
         <h4 class="text-grey">HOT ADS</h4>
 
 
@@ -231,7 +231,7 @@
     </section>
 
     <!-- Everyday -->
-    <section class="container container-fluid pt-4">
+    <section class="container-lg container-fluid pt-4">
       <h3 class="d-md-inline fs-large">
         <svg class="section-icon text-grey mx-2" viewBox="0 0 24 24">
           <path fill="currentColor"
@@ -243,7 +243,8 @@
 
       <hr class="my-2">
 
-      <div class="d-flex justify-content-around align-items-center flex-wrap my-3">
+      <!-- Cards for Mobile -->
+      <div class="d-flex d-md-none justify-content-around align-items-center flex-wrap my-3">
 
         <article class="card border rounded-0 mb-3">
 
@@ -415,6 +416,261 @@
 
       </div>
 
+      <!-- Cards for Desktop -->
+      <div id="carouselEveryday" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item carousel-apartments active g-white">
+            <div class="d-flex justify-content-around align-items-center">
+
+              <article class="card border rounded-0 mb-3">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat1.png" class="w-100" alt="iPhone 12 Pro">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Wonderful Apartment for 1 person</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: San Francisco, US</p>
+                  </div>
+                </a>
+
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button"
+                      id="dropdownMenuButton25" data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton25">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">390$</h5>
+                </div>
+
+              </article>
+
+              <article class="card border rounded-0 mb-3">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat2.png" class="w-100" alt="Macbook Pro">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Small but Comfy Flat for 1 person</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: California, US</p>
+                  </div>
+                </a>
+
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button"
+                      id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">315$</h5>
+                </div>
+
+              </article>
+
+              <article class="card border rounded-0 mb-3">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat3.png" class="w-100" alt="iPhone 12 Pro">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Best apartment for extroverts!</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: Anywhere, US</p>
+                  </div>
+                </a>
+
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button"
+                      id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">385$</h5>
+                </div>
+
+              </article>
+
+              <article class="card border rounded-0 mb-3 d-none d-lg-block">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat4.png" class="w-100" alt="Go Pro HERO4">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Cheapest Shared Room in the west</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: São Paulo, BR</p>
+                  </div>
+                </a>
+
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button"
+                      id="dropdownMenuButton4" data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton4">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">120$</h5>
+                </div>
+
+              </article>
+            </div>
+          </div>
+
+          <div class="carousel-item carousel-apartments g-white">
+            <div class="d-flex justify-content-around align-items-center">
+
+              <article class="card border rounded-0 mb-3">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat4.png" class="w-100" alt="Go Pro HERO4">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Cheapest Shared Room in the west</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: São Paulo, BR</p>
+                  </div>
+                </a>
+
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button"
+                      id="dropdownMenuButton4" data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton4">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">120$</h5>
+                </div>
+
+              </article>
+
+              <article class="card border rounded-0 mb-3">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat5.png" class="w-100" alt="iPhone 12 Pro">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Cute Flat for nature lovers</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: Colorado, US</p>
+                  </div>
+                </a>
+
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button"
+                      id="dropdownMenuButton5" data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton5">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">290$</h5>
+                </div>
+
+              </article>
+
+              <article class="card border rounded-0 mb-3">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat6.png" class="w-100" alt="Macbook Pro">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Modern Seaside Flat for almost free</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: California, US</p>
+                  </div>
+                </a>
+
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button"
+                      id="dropdownMenuButton6" data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton6">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">110$</h5>
+                </div>
+
+              </article>
+
+              <article class="card border rounded-0 mb-3 d-none d-lg-block">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat1.png" class="w-100" alt="iPhone 12 Pro">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Wonderful Apartment for 1 person</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: San Francisco, US</p>
+                  </div>
+                </a>
+
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button"
+                      id="dropdownMenuButton25" data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton25">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">390$</h5>
+                </div>
+
+              </article>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselEveryday" data-bs-slide="prev">
+          <span aria-hidden="true">
+            <svg class="carousel-chevron2 text-black border rounded-circle" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
+            </svg>
+          </span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselEveryday" data-bs-slide="next">
+          <span aria-hidden="true">
+            <svg class="carousel-chevron2 text-black border rounded-circle" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+            </svg>
+          </span>
+        </button>
+      </div>
+
     </section>
 
     <!-- Unique -->
@@ -430,7 +686,8 @@
 
       <hr class="my-2">
 
-      <div class="d-flex justify-content-around align-items-center flex-wrap my-3">
+      <!-- Cards for Mobile -->
+      <div class="d-flex d-md-none justify-content-around align-items-center flex-wrap my-3">
 
         <article class="card border rounded-0 mb-3">
 
@@ -602,6 +859,261 @@
 
       </div>
 
+      <!-- Cards for Desktop -->
+      <div id="carouselUnique" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item carousel-apartments active g-white">
+            <div class="d-flex justify-content-around align-items-center">
+
+              <article class="card border rounded-0 mb-3">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat7.png" class="w-100" alt="Elven's Blessing High Shirt">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Flat with awesome-looking mirror</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: Paris, FR</p>
+                  </div>
+                </a>
+
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button"
+                      id="dropdownMenuButton7" data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton7">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">480$</h5>
+                </div>
+
+              </article>
+
+              <article class="card border rounded-0 mb-3">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat8.png" class="w-100" alt="Red Cropped">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Apartment from the 80's</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: Las Vegas, US</p>
+                  </div>
+                </a>
+
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button"
+                      id="dropdownMenuButton8" data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton8">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">535$</h5>
+                </div>
+
+              </article>
+
+              <article class="card border rounded-0 mb-3">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat9.png" class="w-100" alt="Military Style Black Trousers">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Flat with even more awesome mirror</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: Alabama, US</p>
+                  </div>
+                </a>
+
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button"
+                      id="dropdownMenuButton9" data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton9">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">815$</h5>
+                </div>
+
+              </article>
+
+              <article class="card border rounded-0 mb-3 d-none d-lg-block">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat10.png" class="w-100" alt="Lucid Girly Dream Skirt">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Lucid Girly Dream Flat (with flowers!)</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: Italian City, IT</p>
+                  </div>
+                </a>
+
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button"
+                      id="dropdownMenuButton10" data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton10">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">900$</h5>
+                </div>
+
+              </article>
+            </div>
+          </div>
+
+          <div class="carousel-item carousel-apartments g-white">
+            <div class="d-flex justify-content-around align-items-center">
+
+              <article class="card border rounded-0 mb-3">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat10.png" class="w-100" alt="Lucid Girly Dream Skirt">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Lucid Girly Dream Flat (with flowers!)</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: Italian City, IT</p>
+                  </div>
+                </a>
+
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button"
+                      id="dropdownMenuButton10" data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton10">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">900$</h5>
+                </div>
+
+              </article>
+
+              <article class="card border rounded-0 mb-3">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat11.png" class="w-100" alt="Elven's Blessing High Shirt">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Horror Movie Flat with real blood in it</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: Hollywood, US</p>
+                  </div>
+                </a>
+
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button"
+                      id="dropdownMenuButton11" data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton11">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">760$</h5>
+                </div>
+
+              </article>
+
+              <article class="card border rounded-0 mb-3">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat12.png" class="w-100" alt="Red Cropped">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Unrealistically Beautiful Flat</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: Las Vegas, US</p>
+                  </div>
+                </a>
+
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button"
+                      id="dropdownMenuButton12" data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton12">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">1000$</h5>
+                </div>
+
+              </article>
+
+              <article class="card border rounded-0 mb-3 d-none d-lg-block">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat7.png" class="w-100" alt="Elven's Blessing High Shirt">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Flat with awesome-looking mirror</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: Paris, FR</p>
+                  </div>
+                </a>
+
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button"
+                      id="dropdownMenuButton7" data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton7">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">480$</h5>
+                </div>
+
+              </article>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselUnique" data-bs-slide="prev">
+          <span aria-hidden="true">
+            <svg class="carousel-chevron2 text-black border rounded-circle" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
+            </svg>
+          </span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselUnique" data-bs-slide="next">
+          <span aria-hidden="true">
+            <svg class="carousel-chevron2 text-black border rounded-circle" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+            </svg>
+          </span>
+        </button>
+      </div>
+
     </section>
 
     <!-- Premium -->
@@ -617,7 +1129,8 @@
 
       <hr class="my-2">
 
-      <div class="d-flex justify-content-around align-items-center flex-wrap my-3">
+      <!-- Cards for Mobile -->
+      <div class="d-flex d-md-none justify-content-around align-items-center flex-wrap my-3">
 
         <article class="card border rounded-0 mb-3">
 
@@ -787,7 +1300,261 @@
 
         </article>
 
+      </div>
 
+      <!-- Cards for Desktop -->
+      <div id="carouselPremium" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item carousel-apartments active g-white">
+            <div class="d-flex justify-content-around align-items-center">
+
+              <article class="card border rounded-0 mb-3">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat13.png" class="w-100" alt="Apartment with amazon logo">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Apartment with amazon logo</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: Anywhere, WW</p>
+                  </div>
+                </a>
+
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button"
+                      id="dropdownMenuButton13" data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton13">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">1130$</h5>
+                </div>
+
+              </article>
+
+              <article class="card border rounded-0 mb-3">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat14.png" class="w-100" alt="Our favourite flat from the website">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Our favourite flat from the website</h5>
+                    <h6 class="text-green fs-small m-0">Not for Rent</h6>
+                    <p class="text-grey fs-small">From: Las Vegas, US</p>
+                  </div>
+                </a>
+
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button"
+                      id="dropdownMenuButton14" data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton14">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">1950$</h5>
+                </div>
+
+              </article>
+
+              <article class="card border rounded-0 mb-3">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat15.png" class="w-100" alt="Another horror movie Flat">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Another horror movie Flat</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: Alabama, US</p>
+                  </div>
+                </a>
+
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button"
+                      id="dropdownMenuButton15" data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton15">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">1700$</h5>
+                </div>
+
+              </article>
+
+              <article class="card border rounded-0 mb-3 d-none d-lg-block">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat16.png" class="w-100" alt="Flat With Amazing View">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Flat With Amazing View</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: Anywhere, US</p>
+                  </div>
+                </a>
+
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button"
+                      id="dropdownMenuButton16" data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton16">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">1890$</h5>
+                </div>
+
+              </article>
+            </div>
+          </div>
+
+          <div class="carousel-item carousel-apartments g-white">
+            <div class="d-flex justify-content-around align-items-center">
+
+              <article class="card border rounded-0 mb-3">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat16.png" class="w-100" alt="Flat With Amazing View">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Flat With Amazing View</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: Anywhere, US</p>
+                  </div>
+                </a>
+
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button"
+                      id="dropdownMenuButton16" data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton16">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">1890$</h5>
+                </div>
+
+              </article>
+
+              <article class="card border rounded-0 mb-3">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat17.png" class="w-100" alt="Surprisingly Compact Apartment">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Surprisingly Compact Apartment</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: Brooklyn, US</p>
+                  </div>
+                </a>
+
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button"
+                      id="dropdownMenuButton17" data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton17">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">1320$</h5>
+                </div>
+
+              </article>
+
+              <article class="card border rounded-0 mb-3">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat18.png" class="w-100" alt="Modern Family Apartment">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Modern Family Apartment</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: Las Vegas, US</p>
+                  </div>
+                </a>
+
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button"
+                      id="dropdownMenuButton18" data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton18">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">2000$</h5>
+                </div>
+
+              </article>
+
+              <article class="card border rounded-0 mb-3 d-none d-lg-block">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat13.png" class="w-100" alt="Apartment with amazon logo">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Apartment with amazon logo</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: Anywhere, WW</p>
+                  </div>
+                </a>
+
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button"
+                      id="dropdownMenuButton13" data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton13">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">1130$</h5>
+                </div>
+
+              </article>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPremium" data-bs-slide="prev">
+          <span aria-hidden="true">
+            <svg class="carousel-chevron2 text-black border rounded-circle" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
+            </svg>
+          </span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselPremium" data-bs-slide="next">
+          <span aria-hidden="true">
+            <svg class="carousel-chevron2 text-black border rounded-circle" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+            </svg>
+          </span>
+        </button>
       </div>
 
     </section>
@@ -805,7 +1572,7 @@
 
       <hr class="my-2">
 
-      <div class="d-flex justify-content-around align-items-center flex-wrap my-3">
+      <div class="d-flex d-md-none justify-content-around align-items-center flex-wrap my-3">
 
         <article class="card border rounded-0 mb-3">
 
@@ -987,7 +1754,275 @@
 
         </article>
 
+      </div>
 
+      <!-- Cards for Desktop -->
+      <div id="carouselElite" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item carousel-apartments active g-white">
+            <div class="d-flex justify-content-around align-items-center">
+              <article class="card border rounded-0 mb-3">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat19.png" class="w-100" alt="Flat in New York 3 rooms, 1 suite">
+      
+      
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Flat in New York 3 rooms, 1 suite</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: New York, US</p>
+                  </div>
+      
+                </a>
+      
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button" id="dropdownMenuButton19"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton19">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">3000$</h5>
+                </div>
+      
+              </article>
+      
+              <article class="card border rounded-0 mb-3">
+      
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat20.png" class="w-100" alt="Family Apartment 2 suites in Texas">
+      
+      
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Family Apartment 2 suites in Texas</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: Texas, US</p>
+                  </div>
+      
+                </a>
+      
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button" id="dropdownMenuButton20"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton20">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">2350$</h5>
+                </div>
+      
+              </article>
+      
+              <article class="card border rounded-0 mb-3">
+      
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat21.png" class="w-100" alt="Beautiful Modern Studio for rent">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Beautiful Modern Studio for rent</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: Alabama, US</p>
+                  </div>
+                </a>
+      
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button" id="dropdownMenuButton21"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton21">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">2100$</h5>
+                </div>
+      
+              </article>
+      
+              <article class="card border rounded-0 mb-3 d-none d-lg-block">
+      
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat22.png" class="w-100" alt="Hyundai Creta Metallic Orange">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">42 m² flat for single persons</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: Paris, FR</p>
+                  </div>
+                </a>
+      
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button" id="dropdownMenuButton22"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton22">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">2780$</h5>
+                </div>
+      
+              </article>
+
+            </div>
+          </div>
+
+          <div class="carousel-item carousel-apartments g-white">
+            <div class="d-flex justify-content-around align-items-center">
+              <article class="card border rounded-0 mb-3">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat22.png" class="w-100" alt="Hyundai Creta Metallic Orange">
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">42 m² flat for single persons</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: Paris, FR</p>
+                  </div>
+                </a>
+      
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button" id="dropdownMenuButton22"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton22">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">2780$</h5>
+                </div>
+      
+              </article>
+      
+              <article class="card border rounded-0 mb-3">
+      
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat23.png" class="w-100" alt="Flat in New York 3 rooms, 1 suite">
+      
+      
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Flat in New York 3 rooms, 1 suite</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: New York, US</p>
+                  </div>
+      
+                </a>
+      
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button" id="dropdownMenuButton23"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton23">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">2900$</h5>
+                </div>
+      
+              </article>
+      
+              <article class="card border rounded-0 mb-3">
+      
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat24.png" class="w-100" alt="Family Apartment 2 suites in Texas">
+      
+      
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Family Apartment 2 suites in Texas</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: Texas, US</p>
+                  </div>
+      
+                </a>
+      
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button" id="dropdownMenuButton24"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton24">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">2350$</h5>
+                </div>
+      
+              </article>
+
+              <article class="card border rounded-0 mb-3 d-none d-lg-block">
+
+                <a href="#" class="text-black link-dark">
+                  <img src="./assets/images/flat/flat19.png" class="w-100" alt="Flat in New York 3 rooms, 1 suite">
+      
+      
+                  <div class="px-3 pt-3">
+                    <h5 class="m-0 fs-medium">Flat in New York 3 rooms, 1 suite</h5>
+                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <p class="text-grey fs-small">From: New York, US</p>
+                  </div>
+      
+                </a>
+      
+                <div class="px-3 pb-3 d-flex justify-content-between">
+                  <div class="dropdown">
+                    <button class="btn-add btn dropdown-toggle border rounded-0 g-b" type="button" id="dropdownMenuButton19"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      +
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton19">
+                      <li><a class="dropdown-item text-center fs-small" href="#">Add to Collection</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">Send a Message</a></li>
+                      <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="text-green m-0 pt-2">3000$</h5>
+                </div>
+      
+              </article>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselElite" data-bs-slide="prev">
+          <span aria-hidden="true">
+            <svg class="carousel-chevron2 text-black border rounded-circle" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
+            </svg>
+          </span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselElite" data-bs-slide="next">
+          <span aria-hidden="true">
+            <svg class="carousel-chevron2 text-black border rounded-circle" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+            </svg>
+          </span>
+        </button>
       </div>
 
     </section>
