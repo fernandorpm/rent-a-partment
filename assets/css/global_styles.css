@@ -148,6 +148,23 @@ nav {
   height: 16px;
   font-size: 12px; }
 
+.carousel-hot-ads {
+  padding: 0 15%; }
+
+.carousel-hot-ads img {
+  width: 260px;
+  height: 260px;
+  flex-shrink: 0; }
+
+.carousel-btn-1 {
+  border-right: 1px solid #26a37f; }
+
+.carousel-btn-2 {
+  border-left: 1px solid #26a37f; }
+
+.carousel-chevron2 {
+  width: 44px; }
+
 .section-icon {
   width: 40px;
   height: 40px; }
@@ -215,6 +232,10 @@ nav {
 @media (min-width: 768px) {
   .navbar-brand {
     scale: 1; }
+
+  .carousel-hot-ads img {
+    width: 300px;
+    height: 300px; }
 
   .img-search-result {
     width: 300px;

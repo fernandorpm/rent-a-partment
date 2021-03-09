@@ -231,7 +231,31 @@ nav {
 
 // Home Page =========================================
 
-// Products Section
+// Hot Ads Section
+
+.carousel-hot-ads {
+  padding: 0 15%;
+}
+
+.carousel-hot-ads img {
+  width: 260px;
+  height: 260px;
+  flex-shrink: 0;
+}
+
+.carousel-btn-1 {
+  border-right: 1px solid $dark-green;
+}
+
+.carousel-btn-2 {
+  border-left: 1px solid $dark-green;
+}
+
+.carousel-chevron2 {
+  width: 44px;
+}
+
+// Apartment Types Section
 
 .section-icon {
   width: 40px;
@@ -332,6 +356,11 @@ nav {
 @media (min-width: 768px) {
   .navbar-brand {
     scale: 1;
+  }
+
+  .carousel-hot-ads img {
+    width: 300px;
+    height: 300px;
   }
 
   .img-search-result {

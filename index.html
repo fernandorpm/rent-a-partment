@@ -31,21 +31,25 @@
 
           <div class="col-12 col-md-3 col-xl-2 p-0 small-margin-right mb-1">
             <select class="p-3 border-0 rounded-0 form-select" id="departments" name="departments">
-              <option value="" disabled selected>All Departments</option>
-              <option value="Electronics">Electronics</option>
-              <option value="Fashion">Fashion</option>
-              <option value="Automotives">Automotives</option>
-              <option value="Flats">Flats</option>
+              <option value="" disabled selected>Lifestyle</option>
+              <option value="Everyday">Everyday</option>
+              <option value="Unique">Unique</option>
+              <option value="Premium">Premium</option>
+              <option value="Elite">Elite</option>
+              <option value="VIP">VIP</option>
+              <option value="Deluxe">Deluxe</option>
             </select>
           </div>
 
           <input class="col-12 col-md-3 p-3 border-0 rounded-0 small-margin-right mb-1" type="text"
-            placeholder="What do you search for?">
+            placeholder="Your prefered home style">
 
-          <input class="col-12 col-md-3 p-3 border-0 rounded-0 large-margin-right mb-1" type="text" placeholder="Where?">
+          <input class="col-12 col-md-3 p-3 border-0 rounded-0 large-margin-right mb-1" type="text"
+            placeholder="Where do you want to live?">
 
-          <input class="col-12 col-md-3 col-xl-2 py-3 px-5 bg-black text-white border-0 h-m hover-brightness transition-03 mb-1" type="submit"
-            value="Search">
+          <input
+            class="col-12 col-md-3 col-xl-2 py-3 px-5 bg-black text-white border-0 h-m hover-brightness transition-03 mb-1"
+            type="submit" value="Search">
         </div>
       </form>
     </div>
@@ -117,7 +121,8 @@
 
         <a href="#" class="d-flex align-items-center nav-link p-0 ms-lg-4">
           <p class="m-0 h-m d-none d-lg-block">John Doe</p>
-          <img class="rounded-circle ms-3 d-none d-lg-block" src="./assets/images/person/john-doe.jpeg" width="50" alt="">
+          <img class="rounded-circle ms-3 d-none d-lg-block" src="./assets/images/person/john-doe.jpeg" width="50"
+            alt="">
         </a>
 
 
@@ -127,14 +132,136 @@
     <div class="d-none d-xl-block col-xl-1"></div>
   </nav>
 
-  <main class="container container-fluid py-4">
+  <main class="pb-4">
+
+    <!-- Hot Ads -->
+    <section class="bg-white border-bottom">
+      <div class="container container-fluid py-4 px-4">
+        <h4 class="text-grey">HOT ADS</h4>
+
+
+        <div id="carouselHotAds" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+
+            <div class="carousel-item carousel-hot-ads active g-white">
+              <div class="d-flex flex-column flex-lg-row align-items-center">
+                <img src="./assets/images/automotive/mercedesblue.png" class="d-block" alt="Mercedes Blue">
+                <div class="ps-md-4">
+                  <h4 class="g-b text-green">Get your ticket and Win the newest Mercedes!</h4>
+                  <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad soluta placeat sed
+                    assumenda
+                    voluptas iste
+                    distinctio sunt iure eaque! Rerum labore eveniet aliquid id unde quaerat temporibus magni error
+                    adipisci.</p>
+                  <p class="fs-xsmall m-0"><b class="h-b">By: </b>John Lottery</p>
+                  <p class="fs-xsmall m-0"><b class="h-b">Location: </b>San Francisco, US</p>
+                  <br>
+                  <button type="button"
+                    class="btn bg-green hover-brightness transition-03 rounded-0 rounded-start text-white h-b carousel-btn-1">100$</button>
+                  <button type="button"
+                    class="btn bg-green hover-brightness transition-03 rounded-0 rounded-end text-white h-b carousel-btn-2 negative-margin-chevron">Meet
+                    this Wild Beast!</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item carousel-hot-ads bg-white">
+              <div class="d-flex flex-column flex-lg-row align-items-center">
+                <img src="./assets/images/automotive/hondacityclarity.png" class="d-block" alt="Honda Clarity">
+                <div class="ps-md-4">
+                  <h4 class="g-b text-green">Get your ticket and Win the newest Honda!</h4>
+                  <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad soluta placeat sed
+                    assumenda
+                    voluptas iste
+                    distinctio sunt iure eaque! Rerum labore eveniet aliquid id unde quaerat temporibus magni error
+                    adipisci.</p>
+                  <p class="fs-xsmall m-0"><b class="h-b">By: </b>John Lottery</p>
+                  <p class="fs-xsmall m-0"><b class="h-b">Location: </b>San Francisco, US</p>
+                  <br>
+                  <button type="button"
+                    class="btn bg-green hover-brightness transition-03 rounded-0 rounded-start text-white h-b carousel-btn-1">50$</button>
+                  <button type="button"
+                    class="btn bg-green hover-brightness transition-03 rounded-0 rounded-end text-white h-b carousel-btn-2 negative-margin-chevron">Meet
+                    this Unique Vehicle!</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item carousel-hot-ads bg-white">
+              <div class="d-flex flex-column flex-lg-row align-items-center">
+                <img src="./assets/images/automotive/audiwhite.png" class="d-block" alt="Audi White">
+                <div class="ps-md-4">
+                  <h4 class="g-b text-green">Get your ticket and Win the newest Audi!</h4>
+                  <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad soluta placeat sed
+                    assumenda
+                    voluptas iste
+                    distinctio sunt iure eaque! Rerum labore eveniet aliquid id unde quaerat temporibus magni error
+                    adipisci.</p>
+                  <p class="fs-xsmall m-0"><b class="h-b">By: </b>John Lottery</p>
+                  <p class="fs-xsmall m-0"><b class="h-b">Location: </b>San Francisco, US</p>
+                  <br>
+                  <button type="button"
+                    class="btn bg-green hover-brightness transition-03 rounded-0 rounded-start text-white h-b carousel-btn-1">70$</button>
+                  <button type="button"
+                    class="btn bg-green hover-brightness transition-03 rounded-0 rounded-end text-white h-b carousel-btn-2 negative-margin-chevron">Meet
+                    this Stylish Guy!</button>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselHotAds" data-bs-slide="prev">
+            <span aria-hidden="true">
+              <svg class="carousel-chevron2 text-green border rounded-circle" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
+              </svg>
+            </span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselHotAds" data-bs-slide="next">
+            <span aria-hidden="true">
+              <svg class="carousel-chevron2 text-green border rounded-circle" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+              </svg>
+            </span>
+          </button>
+        </div>
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+
+
+      </div>
+    </section>
 
     <!-- Everyday -->
-    <section>
+    <section class="container container-fluid pt-4">
       <h3 class="d-md-inline fs-large">
         <svg class="section-icon text-grey mx-2" viewBox="0 0 24 24">
           <path fill="currentColor"
-            d="M22,17H18V10H22M23,8H17A1,1 0 0,0 16,9V19A1,1 0 0,0 17,20H23A1,1 0 0,0 24,19V9A1,1 0 0,0 23,8M4,6H22V4H4A2,2 0 0,0 2,6V17H0V20H14V17H4V6Z" />
+            d="M19 3V21H13V17.5H11V21H5V3H19M15 7H17V5H15V7M11 7H13V5H11V7M7 7H9V5H7V7M15 11H17V9H15V11M11 11H13V9H11V11M7 11H9V9H7V11M15 15H17V13H15V15M11 15H13V13H11V15M7 15H9V13H7V15M15 19H17V17H15V19M7 19H9V17H7V19M21 1H3V23H21V1Z" />
         </svg>
         Everyday
       </h3>
@@ -147,7 +274,7 @@
         <article class="card border rounded-0 mb-3">
 
           <a href="#" class="text-black link-dark">
-            <img src="./assets/images/flat/flat1.png"  class="w-100" alt="iPhone 12 Pro">
+            <img src="./assets/images/flat/flat1.png" class="w-100" alt="iPhone 12 Pro">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Wonderful Apartment for 1 person</h5>
               <h6 class="text-green fs-small m-0">Rent</h6>
@@ -175,7 +302,7 @@
         <article class="card border rounded-0 mb-3">
 
           <a href="#" class="text-black link-dark">
-            <img src="./assets/images/flat/flat2.png"  class="w-100" alt="Macbook Pro">
+            <img src="./assets/images/flat/flat2.png" class="w-100" alt="Macbook Pro">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Small but Comfy Flat for 1 person</h5>
               <h6 class="text-green fs-small m-0">Rent</h6>
@@ -203,7 +330,7 @@
         <article class="card border rounded-0 mb-3">
 
           <a href="#" class="text-black link-dark">
-            <img src="./assets/images/flat/flat3.png"  class="w-100" alt="iPhone 12 Pro">
+            <img src="./assets/images/flat/flat3.png" class="w-100" alt="iPhone 12 Pro">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Best apartment for extroverts!</h5>
               <h6 class="text-green fs-small m-0">Rent</h6>
@@ -231,7 +358,7 @@
         <article class="card border rounded-0 mb-3">
 
           <a href="#" class="text-black link-dark">
-            <img src="./assets/images/flat/flat4.png"  class="w-100" alt="Go Pro HERO4">
+            <img src="./assets/images/flat/flat4.png" class="w-100" alt="Go Pro HERO4">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Cheapest Shared Room in the west</h5>
               <h6 class="text-green fs-small m-0">Rent</h6>
@@ -259,7 +386,7 @@
         <article class="card border rounded-0 mb-3">
 
           <a href="#" class="text-black link-dark">
-            <img src="./assets/images/flat/flat5.png"  class="w-100" alt="iPhone 12 Pro">
+            <img src="./assets/images/flat/flat5.png" class="w-100" alt="iPhone 12 Pro">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Cute Flat for nature lovers</h5>
               <h6 class="text-green fs-small m-0">Rent</h6>
@@ -287,7 +414,7 @@
         <article class="card border rounded-0 mb-3">
 
           <a href="#" class="text-black link-dark">
-            <img src="./assets/images/flat/flat6.png"  class="w-100" alt="Macbook Pro">
+            <img src="./assets/images/flat/flat6.png" class="w-100" alt="Macbook Pro">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Modern Seaside Flat for almost free</h5>
               <h6 class="text-green fs-small m-0">Rent</h6>
@@ -317,11 +444,11 @@
     </section>
 
     <!-- Unique -->
-    <section>
+    <section class="container container-fluid">
       <h3 class="d-md-inline fs-large">
         <svg class="section-icon text-grey mx-2" viewBox="0 0 24 24">
           <path fill="currentColor"
-            d="M12 4A3.5 3.5 0 0 0 8.5 7.5H10.5A1.5 1.5 0 0 1 12 6A1.5 1.5 0 0 1 13.5 7.5A1.5 1.5 0 0 1 12 9C11.45 9 11 9.45 11 10V11.75L2.4 18.2A1 1 0 0 0 3 20H21A1 1 0 0 0 21.6 18.2L13 11.75V10.85A3.5 3.5 0 0 0 15.5 7.5A3.5 3.5 0 0 0 12 4M12 13.5L18 18H6Z" />
+            d="M19 3V21H13V17.5H11V21H5V3H19M15 7H17V5H15V7M11 7H13V5H11V7M7 7H9V5H7V7M15 11H17V9H15V11M11 11H13V9H11V11M7 11H9V9H7V11M15 15H17V13H15V15M11 15H13V13H11V15M7 15H9V13H7V15M15 19H17V17H15V19M7 19H9V17H7V19M21 1H3V23H21V1Z" />
         </svg>
         Unique
       </h3>
@@ -334,7 +461,7 @@
         <article class="card border rounded-0 mb-3">
 
           <a href="#" class="text-black link-dark">
-            <img src="./assets/images/flat/flat7.png"  class="w-100" alt="Elven's Blessing High Shirt">
+            <img src="./assets/images/flat/flat7.png" class="w-100" alt="Elven's Blessing High Shirt">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Flat with awesome-looking mirror</h5>
               <h6 class="text-green fs-small m-0">Rent</h6>
@@ -362,7 +489,7 @@
         <article class="card border rounded-0 mb-3">
 
           <a href="#" class="text-black link-dark">
-            <img src="./assets/images/flat/flat8.png"  class="w-100" alt="Red Cropped">
+            <img src="./assets/images/flat/flat8.png" class="w-100" alt="Red Cropped">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Apartment from the 80's</h5>
               <h6 class="text-green fs-small m-0">Rent</h6>
@@ -390,7 +517,7 @@
         <article class="card border rounded-0 mb-3">
 
           <a href="#" class="text-black link-dark">
-            <img src="./assets/images/flat/flat9.png"  class="w-100" alt="Military Style Black Trousers">
+            <img src="./assets/images/flat/flat9.png" class="w-100" alt="Military Style Black Trousers">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Flat with even more awesome mirror</h5>
               <h6 class="text-green fs-small m-0">Rent</h6>
@@ -418,7 +545,7 @@
         <article class="card border rounded-0 mb-3">
 
           <a href="#" class="text-black link-dark">
-            <img src="./assets/images/flat/flat10.png"  class="w-100" alt="Lucid Girly Dream Skirt">
+            <img src="./assets/images/flat/flat10.png" class="w-100" alt="Lucid Girly Dream Skirt">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Lucid Girly Dream Flat (with flowers!)</h5>
               <h6 class="text-green fs-small m-0">Rent</h6>
@@ -446,7 +573,7 @@
         <article class="card border rounded-0 mb-3">
 
           <a href="#" class="text-black link-dark">
-            <img src="./assets/images/flat/flat11.png"  class="w-100" alt="Elven's Blessing High Shirt">
+            <img src="./assets/images/flat/flat11.png" class="w-100" alt="Elven's Blessing High Shirt">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Horror Movie Flat with real blood in it</h5>
               <h6 class="text-green fs-small m-0">Rent</h6>
@@ -474,7 +601,7 @@
         <article class="card border rounded-0 mb-3">
 
           <a href="#" class="text-black link-dark">
-            <img src="./assets/images/flat/flat12.png"  class="w-100" alt="Red Cropped">
+            <img src="./assets/images/flat/flat12.png" class="w-100" alt="Red Cropped">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Unrealistically Beautiful Flat</h5>
               <h6 class="text-green fs-small m-0">Rent</h6>
@@ -504,11 +631,11 @@
     </section>
 
     <!-- Premium -->
-    <section>
+    <section class="container container-fluid">
       <h3 class="d-md-inline fs-large">
         <svg class="section-icon text-grey mx-2" viewBox="0 0 24 24">
           <path fill="currentColor"
-            d="M18.9 6C18.7 5.4 18.1 5 17.5 5H6.5C5.8 5 5.3 5.4 5.1 6L3 12V20C3 20.5 3.5 21 4 21H5C5.6 21 6 20.5 6 20V19H18V20C18 20.5 18.5 21 19 21H20C20.5 21 21 20.5 21 20V12L18.9 6M6.8 7H17.1L18.2 10H5.8L6.8 7M19 17H5V12H19V17M7.5 13C8.3 13 9 13.7 9 14.5S8.3 16 7.5 16 6 15.3 6 14.5 6.7 13 7.5 13M16.5 13C17.3 13 18 13.7 18 14.5S17.3 16 16.5 16C15.7 16 15 15.3 15 14.5S15.7 13 16.5 13Z" />
+            d="M19 3V21H13V17.5H11V21H5V3H19M15 7H17V5H15V7M11 7H13V5H11V7M7 7H9V5H7V7M15 11H17V9H15V11M11 11H13V9H11V11M7 11H9V9H7V11M15 15H17V13H15V15M11 15H13V13H11V15M7 15H9V13H7V15M15 19H17V17H15V19M7 19H9V17H7V19M21 1H3V23H21V1Z" />
         </svg>
         Premium
       </h3>
@@ -521,8 +648,7 @@
         <article class="card border rounded-0 mb-3">
 
           <a href="#" class="text-black link-dark">
-            <img src="./assets/images/flat/flat13.png" class="w-100"
-              alt="Apartment with amazon logo">
+            <img src="./assets/images/flat/flat13.png" class="w-100" alt="Apartment with amazon logo">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Apartment with amazon logo</h5>
               <h6 class="text-green fs-small m-0">Rent</h6>
@@ -550,7 +676,7 @@
         <article class="card border rounded-0 mb-3">
 
           <a href="#" class="text-black link-dark">
-            <img src="./assets/images/flat/flat14.png"  class="w-100" alt="Our favourite flat from the website">
+            <img src="./assets/images/flat/flat14.png" class="w-100" alt="Our favourite flat from the website">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Our favourite flat from the website</h5>
               <h6 class="text-green fs-small m-0">Not for Rent</h6>
@@ -578,7 +704,7 @@
         <article class="card border rounded-0 mb-3">
 
           <a href="#" class="text-black link-dark">
-            <img src="./assets/images/flat/flat15.png"  class="w-100" alt="Another horror movie Flat">
+            <img src="./assets/images/flat/flat15.png" class="w-100" alt="Another horror movie Flat">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Another horror movie Flat</h5>
               <h6 class="text-green fs-small m-0">Rent</h6>
@@ -606,7 +732,7 @@
         <article class="card border rounded-0 mb-3">
 
           <a href="#" class="text-black link-dark">
-            <img src="./assets/images/flat/flat16.png"  class="w-100" alt="Flat With Amazing View">
+            <img src="./assets/images/flat/flat16.png" class="w-100" alt="Flat With Amazing View">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Flat With Amazing View</h5>
               <h6 class="text-green fs-small m-0">Rent</h6>
@@ -634,8 +760,7 @@
         <article class="card border rounded-0 mb-3">
 
           <a href="#" class="text-black link-dark">
-            <img src="./assets/images/flat/flat17.png" class="w-100"
-              alt="Surprisingly Compact Apartment">
+            <img src="./assets/images/flat/flat17.png" class="w-100" alt="Surprisingly Compact Apartment">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Surprisingly Compact Apartment</h5>
               <h6 class="text-green fs-small m-0">Rent</h6>
@@ -663,7 +788,7 @@
         <article class="card border rounded-0 mb-3">
 
           <a href="#" class="text-black link-dark">
-            <img src="./assets/images/flat/flat18.png"  class="w-100" alt="Modern Family Apartment">
+            <img src="./assets/images/flat/flat18.png" class="w-100" alt="Modern Family Apartment">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Modern Family Apartment</h5>
               <h6 class="text-green fs-small m-0">Rent</h6>
@@ -694,7 +819,7 @@
     </section>
 
     <!-- Elite -->
-    <section>
+    <section class="container container-fluid">
       <h3 class="d-md-inline fs-large">
         <svg class="section-icon text-grey mx-2" viewBox="0 0 24 24">
           <path fill="currentColor"
@@ -711,7 +836,7 @@
         <article class="card border rounded-0 mb-3">
 
           <a href="#" class="text-black link-dark">
-            <img src="./assets/images/flat/flat19.png"  class="w-100" alt="Flat in New York 3 rooms, 1 suite">
+            <img src="./assets/images/flat/flat19.png" class="w-100" alt="Flat in New York 3 rooms, 1 suite">
 
 
             <div class="px-3 pt-3">
@@ -734,7 +859,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">3300$</h5>
+            <h5 class="text-green m-0 pt-2">3000$</h5>
           </div>
 
         </article>
@@ -742,7 +867,7 @@
         <article class="card border rounded-0 mb-3">
 
           <a href="#" class="text-black link-dark">
-            <img src="./assets/images/flat/flat20.png"  class="w-100" alt="Family Apartment 2 suites in Texas">
+            <img src="./assets/images/flat/flat20.png" class="w-100" alt="Family Apartment 2 suites in Texas">
 
 
             <div class="px-3 pt-3">
@@ -765,7 +890,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">1350$</h5>
+            <h5 class="text-green m-0 pt-2">2350$</h5>
           </div>
 
         </article>
@@ -773,7 +898,7 @@
         <article class="card border rounded-0 mb-3">
 
           <a href="#" class="text-black link-dark">
-            <img src="./assets/images/flat/flat21.png"  class="w-100" alt="Beautiful Modern Studio for rent">
+            <img src="./assets/images/flat/flat21.png" class="w-100" alt="Beautiful Modern Studio for rent">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Beautiful Modern Studio for rent</h5>
               <h6 class="text-green fs-small m-0">Rent</h6>
@@ -793,7 +918,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">1100$</h5>
+            <h5 class="text-green m-0 pt-2">2100$</h5>
           </div>
 
         </article>
@@ -801,7 +926,7 @@
         <article class="card border rounded-0 mb-3">
 
           <a href="#" class="text-black link-dark">
-            <img src="./assets/images/flat/flat22.png"  class="w-100" alt="Hyundai Creta Metallic Orange">
+            <img src="./assets/images/flat/flat22.png" class="w-100" alt="Hyundai Creta Metallic Orange">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">42 m² flat for single persons</h5>
               <h6 class="text-green fs-small m-0">Rent</h6>
@@ -821,7 +946,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">2200$</h5>
+            <h5 class="text-green m-0 pt-2">2780$</h5>
           </div>
 
         </article>
@@ -829,7 +954,7 @@
         <article class="card border rounded-0 mb-3">
 
           <a href="#" class="text-black link-dark">
-            <img src="./assets/images/flat/flat23.png"  class="w-100" alt="Flat in New York 3 rooms, 1 suite">
+            <img src="./assets/images/flat/flat23.png" class="w-100" alt="Flat in New York 3 rooms, 1 suite">
 
 
             <div class="px-3 pt-3">
@@ -852,7 +977,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">3300$</h5>
+            <h5 class="text-green m-0 pt-2">2900$</h5>
           </div>
 
         </article>
@@ -860,7 +985,7 @@
         <article class="card border rounded-0 mb-3">
 
           <a href="#" class="text-black link-dark">
-            <img src="./assets/images/flat/flat24.png"  class="w-100" alt="Family Apartment 2 suites in Texas">
+            <img src="./assets/images/flat/flat24.png" class="w-100" alt="Family Apartment 2 suites in Texas">
 
 
             <div class="px-3 pt-3">
@@ -883,7 +1008,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">1350$</h5>
+            <h5 class="text-green m-0 pt-2">2350$</h5>
           </div>
 
         </article>
