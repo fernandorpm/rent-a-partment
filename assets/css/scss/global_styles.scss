@@ -44,7 +44,6 @@ $large: 18px;
 $big: 20px;
 
 // Colors
-$red: #d35266;
 $grey: #888;
 $black: #383838;
 
@@ -52,10 +51,6 @@ $main-green: #30b360;
 $dark-green: #26a37f;
 
 // Background Colors
-
-.bg-red {
-  background-color: $red;
-}
 
 .bg-green {
   background-color: $main-green;
@@ -70,10 +65,6 @@ $dark-green: #26a37f;
 }
 
 // Text Colors
-
-.text-red {
-  color: $red;
-}
 
 .text-green {
   color: $main-green;
