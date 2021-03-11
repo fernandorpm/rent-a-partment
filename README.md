@@ -1,75 +1,71 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Rent A Partment
 
-# Project Name
+> Rent A Partment is the Capstone Project assigned to me by Microverse for the 4th week of the HTML & CSS3 Module.
+> Original Design (Zattix) by: <a href="https://www.behance.net/gallery/24796463/ZATTIX" target="_blank">Mohammed Awad</a>.
 
-> One paragraph statement about the project.
+![Project Preview](rent-a-partment.gif)
 
-![screenshot](./app_screenshot.png)
+The given design had a home page with a cellphone, tablet, and desktop views and a search results page with a desktop view.
+This means that the cellphone and tablet versions for the results page were created exclusively for this project.
 
-Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- Sassy CSS
+- Bootstrap
+- Material Design Icons
+
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://fernandorpm.github.io/rent-a-partment/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+Be sure to have a Github account and that this account is connected locally on your PC
 
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
 
 ### Setup
 
+Create a new folder/directory for the project
+
+
 ### Install
 
-### Usage
-
-### Run tests
-
-### Deployment
-
+- open your terminal on your OS
+- go to the desired folder/directory that you want to have the project in
+- git clone https://github.com/fernandorpm/rent-a-partment.git
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Fernando R P Marques**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: <a href="https://github.com/fernandorpm" target="_blank">@fernandorpm</a>
+- Twitter: <a href="https://twitter.com/rpm_fernando" target="_blank">@rpm_fernando</a>
+- LinkedIn: <a href="https://linkedin.com/in/fernandorpm" target="_blank">Fernando R P Marques</a>
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/fernandorpm/rent-a-partment/issues/2).
+
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
+
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- Hat tip to anyone who's code was used
 - Inspiration
 - etc
+
 
 ## 📝 License
 
