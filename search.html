@@ -16,6 +16,84 @@
   <!-- Header -->
   <header class="position-relative py-5">
 
+    <!-- Navbar Top (Grey one) -->
+    <nav class="navbar navbar-expand navbar-dark bg-black position-fixed w-100 top-0 py-0 py-md-2">
+      <div class="d-none d-xl-block col-xl-1"></div>
+      <div class="container-fluid col-12 col-xl-10">
+
+        <!-- Brand Navbar -->
+        <a class="navbar-brand g-b p-0 m-0 me-sm-2" href="#">
+          <img src="./assets/images/logo/logo_nav.png" class="logo-nav" alt="Logo green">
+          <p class="d-none d-md-inline">RENT A PARTMENT</p>
+          <p class="d-inline d-md-none">R APT</p>
+        </a>
+
+        <!-- Page Options Navbar -->
+        <div class="ps-lg-3 navbar-collapse d-flex justify-content-end justify-content-lg-start">
+          <ul class="navbar-nav">
+            <li class="nav-item mx-lg-2 h-m">
+              <a class="nav-link active link-text p-0 ps-2 p-sm-2" aria-current="page" href="./index.html">
+                <svg class="nav-icon" viewBox="0 0 24 24">
+                  <path fill="currentColor" d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" />
+                </svg>
+                <p class="d-none d-md-inline">HOME</p>
+              </a>
+            </li>
+            <li class="nav-item mx-lg-2 h-m">
+              <a class="nav-link link-text p-0 ps-4 p-sm-2" href="#">
+                <svg class="nav-icon" viewBox="0 0 24 24">
+                  <path fill="currentColor"
+                    d="M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3M7,7V9H9V7H7M11,7V9H13V7H11M15,7V9H17V7H15M7,11V13H9V11H7M11,11V13H13V11H11M15,11V13H17V11H15M7,15V17H9V15H7M11,15V17H13V15H11M15,15V17H17V15H15Z" />
+                </svg>
+                <p class="d-none d-md-inline">COLLECTIONS</p>
+              </a>
+            </li>
+            <li class="nav-item mx-lg-2 h-m">
+              <a class="nav-link link-text p-0 ps-4 p-sm-2" href="#">
+                <svg class="nav-icon" viewBox="0 0 24 24">
+                  <path fill="currentColor"
+                    d="M17,18C15.89,18 15,18.89 15,20A2,2 0 0,0 17,22A2,2 0 0,0 19,20C19,18.89 18.1,18 17,18M1,2V4H3L6.6,11.59L5.24,14.04C5.09,14.32 5,14.65 5,15A2,2 0 0,0 7,17H19V15H7.42A0.25,0.25 0 0,1 7.17,14.75C7.17,14.7 7.18,14.66 7.2,14.63L8.1,13H15.55C16.3,13 16.96,12.58 17.3,11.97L20.88,5.5C20.95,5.34 21,5.17 21,5A1,1 0 0,0 20,4H5.21L4.27,2M7,18C5.89,18 5,18.89 5,20A2,2 0 0,0 7,22A2,2 0 0,0 9,20C9,18.89 8.1,18 7,18Z" />
+                </svg>
+                <p class="d-none d-md-inline">PURCHASE LIST</p>
+              </a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="btn bg-red d-none d-md-block text-light h-m py-2 px-4 hover-brightness transition-03 link-text"
+                href="#" tabindex="-1" aria-disabled="true">POST AN AD</a>
+            </li>
+          </ul>
+
+        </div>
+
+        <!-- User Side Navbar -->
+        <div class="navbar-nav d-none d-md-flex justify-content-end">
+
+          <a href="#" class="nav-link">
+            <div class="position-relative message-div d-flex align-items-center">
+              <svg class="nav-icon" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                  d="M18,8H6V6H18V8M18,11H6V9H18V11M18,14H6V12H18V14M22,4A2,2 0 0,0 20,2H4A2,2 0 0,0 2,4V16A2,2 0 0,0 4,18H18L22,22V4Z" />
+              </svg>
+              <div
+                class="notification-div text-white bg-danger rounded-circle text-center position-absolute top-0 end-0">
+                <p>3</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="d-flex align-items-center nav-link p-0 ms-lg-4">
+            <p class="m-0 h-m d-none d-lg-block">John Doe</p>
+            <img class="rounded-circle ms-3 d-none d-lg-block" src="./assets/images/person/john-doe.jpeg" width="50"
+              alt="">
+          </a>
+
+
+        </div>
+      </div>
+
+      <div class="d-none d-xl-block col-xl-1"></div>
+    </nav>
+
     <div class="d-none d-md-block space-for-nav"></div>
     <div class="d-md-none space-for-nav-smaller"></div>
 
@@ -44,90 +122,16 @@
           <input class="col-12 col-md-3 p-3 border-0 rounded-0 small-margin-right mb-1" type="text"
             placeholder="Your prefered home style">
 
-          <input class="col-12 col-md-3 p-3 border-0 rounded-0 large-margin-right mb-1" type="text" placeholder="Where do you want to live?">
+          <input class="col-12 col-md-3 p-3 border-0 rounded-0 large-margin-right mb-1" type="text"
+            placeholder="Where do you want to live?">
 
-          <input class="col-12 col-md-3 col-xl-2 py-3 px-5 bg-black text-white border-0 h-m hover-brightness transition-03 mb-1" type="submit"
-            value="Search">
+          <input
+            class="col-12 col-md-3 col-xl-2 py-3 px-5 bg-black text-white border-0 h-m hover-brightness transition-03 mb-1"
+            type="submit" value="Search">
         </div>
       </form>
     </div>
   </header>
-
-  <!-- Navbar Top (Grey one) -->
-  <nav class="navbar navbar-expand navbar-dark bg-black position-fixed w-100 top-0 py-0 py-md-2">
-    <div class="d-none d-xl-block col-xl-1"></div>
-    <div class="container-fluid col-12 col-xl-10">
-
-      <!-- Brand Navbar -->
-      <a class="navbar-brand g-b p-0 m-0 me-sm-2" href="./index.html">
-        <img src="./assets/images/logo/logo_nav.png" class="logo-nav" alt="Logo green">
-        <p class="d-none d-md-inline">RENT A PARTMENT</p>
-        <p class="d-inline d-md-none">R APT</p>
-      </a>
-
-      <!-- Page Options Navbar -->
-      <div class="ps-lg-3 navbar-collapse d-flex justify-content-end justify-content-lg-start">
-        <ul class="navbar-nav">
-          <li class="nav-item mx-lg-2 h-m">
-            <a class="nav-link active link-text p-0 ps-2 p-sm-2" aria-current="page" href="./index.html">
-              <svg class="nav-icon" viewBox="0 0 24 24">
-                <path fill="currentColor" d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" />
-              </svg>
-              <p class="d-none d-md-inline">HOME</p>
-            </a>
-          </li>
-          <li class="nav-item mx-lg-2 h-m">
-            <a class="nav-link link-text p-0 ps-4 p-sm-2" href="#">
-              <svg class="nav-icon" viewBox="0 0 24 24">
-                <path fill="currentColor"
-                  d="M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3M7,7V9H9V7H7M11,7V9H13V7H11M15,7V9H17V7H15M7,11V13H9V11H7M11,11V13H13V11H11M15,11V13H17V11H15M7,15V17H9V15H7M11,15V17H13V15H11M15,15V17H17V15H15Z" />
-              </svg>
-              <p class="d-none d-md-inline">COLLECTIONS</p>
-            </a>
-          </li>
-          <li class="nav-item mx-lg-2 h-m">
-            <a class="nav-link link-text p-0 ps-4 p-sm-2" href="#">
-              <svg class="nav-icon" viewBox="0 0 24 24">
-                <path fill="currentColor"
-                  d="M17,18C15.89,18 15,18.89 15,20A2,2 0 0,0 17,22A2,2 0 0,0 19,20C19,18.89 18.1,18 17,18M1,2V4H3L6.6,11.59L5.24,14.04C5.09,14.32 5,14.65 5,15A2,2 0 0,0 7,17H19V15H7.42A0.25,0.25 0 0,1 7.17,14.75C7.17,14.7 7.18,14.66 7.2,14.63L8.1,13H15.55C16.3,13 16.96,12.58 17.3,11.97L20.88,5.5C20.95,5.34 21,5.17 21,5A1,1 0 0,0 20,4H5.21L4.27,2M7,18C5.89,18 5,18.89 5,20A2,2 0 0,0 7,22A2,2 0 0,0 9,20C9,18.89 8.1,18 7,18Z" />
-              </svg>
-              <p class="d-none d-md-inline">PURCHASE LIST</p>
-            </a>
-          </li>
-          <li class="nav-item mx-2">
-            <a class="btn bg-red d-none d-md-block text-light h-m py-2 px-4 hover-brightness transition-03 link-text"
-              href="#" tabindex="-1" aria-disabled="true">POST AN AD</a>
-          </li>
-        </ul>
-
-      </div>
-
-      <!-- User Side Navbar -->
-      <div class="navbar-nav d-none d-md-flex justify-content-end">
-
-        <a href="#" class="nav-link">
-          <div class="position-relative message-div d-flex align-items-center">
-            <svg class="nav-icon" viewBox="0 0 24 24">
-              <path fill="currentColor"
-                d="M18,8H6V6H18V8M18,11H6V9H18V11M18,14H6V12H18V14M22,4A2,2 0 0,0 20,2H4A2,2 0 0,0 2,4V16A2,2 0 0,0 4,18H18L22,22V4Z" />
-            </svg>
-            <div class="notification-div text-white bg-danger rounded-circle text-center position-absolute top-0 end-0">
-              <p>3</p>
-            </div>
-          </div>
-        </a>
-
-        <a href="#" class="d-flex align-items-center nav-link p-0 ms-lg-4">
-          <p class="m-0 h-m d-none d-lg-block">John Doe</p>
-          <img class="rounded-circle ms-3 d-none d-lg-block" src="./assets/images/person/john-doe.jpeg" width="50" alt="">
-        </a>
-
-
-      </div>
-    </div>
-
-    <div class="d-none d-xl-block col-xl-1"></div>
-  </nav>
 
   <main class="container-fluid px-md-5 pb-4">
 
