@@ -44,16 +44,15 @@ $large: 18px;
 $big: 20px;
 
 // Colors
+$red: #d35266;
+$dark-red: #b84273;
 $grey: #888;
 $black: #383838;
 
-$main-green: #30b360;
-$dark-green: #26a37f;
-
 // Background Colors
 
-.bg-green {
-  background-color: $main-green;
+.bg-red {
+  background-color: $red;
 }
 
 .bg-grey {
@@ -66,8 +65,8 @@ $dark-green: #26a37f;
 
 // Text Colors
 
-.text-green {
-  color: $main-green;
+.text-red {
+  color: $red;
 }
 
 .text-grey {
@@ -183,7 +182,7 @@ a {
 }
 
 header {
-  background: linear-gradient(160deg, $main-green 0%, $dark-green 100%);
+  background-color: $red;
 }
 
 // Navbar Top
@@ -235,11 +234,11 @@ nav {
 }
 
 .carousel-btn-1 {
-  border-right: 1px solid $dark-green;
+  border-right: 1px solid $dark-red;
 }
 
 .carousel-btn-2 {
-  border-left: 1px solid $dark-green;
+  border-left: 1px solid $dark-red;
 }
 
 .carousel-chevron2 {
@@ -272,7 +271,7 @@ nav {
 
 .btn-add:focus {
   background-color: $black;
-  color: $main-green;
+  color: $red;
   box-shadow: none;
 }
 
@@ -313,8 +312,8 @@ nav {
 }
 
 .page-item.active .page-link {
-  background-color: $main-green;
-  border: 1px solid $main-green;
+  background-color: $red;
+  border: 1px solid $red;
 }
 
 .border-md-only {

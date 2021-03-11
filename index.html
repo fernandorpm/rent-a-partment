@@ -16,46 +16,7 @@
   <!-- Header -->
   <header class="position-relative py-5">
 
-    <div class="d-none d-md-block space-for-nav"></div>
-    <div class="d-md-none space-for-nav-smaller"></div>
-
-    <div class="header-content">
-      <h1 class="g-b text-white text-center main-title m-0">RENT A PARTMENT</h1>
-      <h2 class="g-l text-white text-center sub-title">your home is right here ♡</h2>
-    </div>
-
-    <div class="header-content">
-
-      <form action="./search.html" class="header-content">
-        <div class="mx-auto container d-flex flex-column flex-md-row justify-content-center">
-
-          <div class="col-12 col-md-3 col-xl-2 p-0 small-margin-right mb-1">
-            <select class="p-3 border-0 rounded-0 form-select" id="departments" name="departments">
-              <option value="" disabled selected>Lifestyle</option>
-              <option value="Everyday">Everyday</option>
-              <option value="Unique">Unique</option>
-              <option value="Premium">Premium</option>
-              <option value="Elite">Elite</option>
-              <option value="VIP">VIP</option>
-              <option value="Deluxe">Deluxe</option>
-            </select>
-          </div>
-
-          <input class="col-12 col-md-3 p-3 border-0 rounded-0 small-margin-right mb-1" type="text"
-            placeholder="Your prefered home style">
-
-          <input class="col-12 col-md-3 p-3 border-0 rounded-0 large-margin-right mb-1" type="text"
-            placeholder="Where do you want to live?">
-
-          <input
-            class="col-12 col-md-3 col-xl-2 py-3 px-5 bg-black text-white border-0 h-m hover-brightness transition-03 mb-1"
-            type="submit" value="Search">
-        </div>
-      </form>
-    </div>
-  </header>
-
-  <!-- Navbar Top (Grey one) -->
+      <!-- Navbar Top (Grey one) -->
   <nav class="navbar navbar-expand navbar-dark bg-black position-fixed w-100 top-0 py-0 py-md-2">
     <div class="d-none d-xl-block col-xl-1"></div>
     <div class="container-fluid col-12 col-xl-10">
@@ -97,7 +58,7 @@
             </a>
           </li>
           <li class="nav-item mx-2">
-            <a class="btn bg-green d-none d-md-block text-light h-m py-2 px-4 hover-brightness transition-03 link-text"
+            <a class="btn bg-red d-none d-md-block text-light h-m py-2 px-4 hover-brightness transition-03 link-text"
               href="#" tabindex="-1" aria-disabled="true">POST AN AD</a>
           </li>
         </ul>
@@ -131,6 +92,45 @@
 
     <div class="d-none d-xl-block col-xl-1"></div>
   </nav>
+    
+    <div class="d-none d-md-block space-for-nav"></div>
+    <div class="d-md-none space-for-nav-smaller"></div>
+
+    <div class="header-content">
+      <h1 class="g-b text-white text-center main-title m-0">RENT A PARTMENT</h1>
+      <h2 class="g-l text-white text-center sub-title">your home is right here ♡</h2>
+    </div>
+
+    <div class="header-content">
+
+      <form action="./search.html" class="header-content">
+        <div class="mx-auto container d-flex flex-column flex-md-row justify-content-center">
+
+          <div class="col-12 col-md-3 col-xl-2 p-0 small-margin-right mb-1">
+            <select class="p-3 border-0 rounded-0 form-select" id="departments" name="departments">
+              <option value="" disabled selected>Lifestyle</option>
+              <option value="Everyday">Everyday</option>
+              <option value="Unique">Unique</option>
+              <option value="Premium">Premium</option>
+              <option value="Elite">Elite</option>
+              <option value="VIP">VIP</option>
+              <option value="Deluxe">Deluxe</option>
+            </select>
+          </div>
+
+          <input class="col-12 col-md-3 p-3 border-0 rounded-0 small-margin-right mb-1" type="text"
+            placeholder="Your prefered home style">
+
+          <input class="col-12 col-md-3 p-3 border-0 rounded-0 large-margin-right mb-1" type="text"
+            placeholder="Where do you want to live?">
+
+          <input
+            class="col-12 col-md-3 col-xl-2 py-3 px-5 bg-black text-white border-0 h-m hover-brightness transition-03 mb-1"
+            type="submit" value="Search">
+        </div>
+      </form>
+    </div>
+  </header>
 
   <main class="pb-4">
 
@@ -147,7 +147,7 @@
               <div class="d-flex flex-column flex-lg-row align-items-center">
                 <img src="./assets/images/automotive/mercedesblue.png" class="d-block" alt="Mercedes Blue">
                 <div class="ps-md-4">
-                  <h4 class="g-b text-green">Get your ticket and Win the newest Mercedes!</h4>
+                  <h4 class="g-b text-red">Get your ticket and Win the newest Mercedes!</h4>
                   <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad soluta placeat sed
                     assumenda
                     voluptas iste
@@ -157,9 +157,9 @@
                   <p class="fs-xsmall m-0"><b class="h-b">Location: </b>San Francisco, US</p>
                   <br>
                   <button type="button"
-                    class="btn bg-green hover-brightness transition-03 rounded-0 rounded-start text-white h-b carousel-btn-1">100$</button>
+                    class="btn bg-red hover-brightness transition-03 rounded-0 rounded-start text-white h-b carousel-btn-1">100$</button>
                   <button type="button"
-                    class="btn bg-green hover-brightness transition-03 rounded-0 rounded-end text-white h-b carousel-btn-2 negative-margin-chevron">Meet
+                    class="btn bg-red hover-brightness transition-03 rounded-0 rounded-end text-white h-b carousel-btn-2 negative-margin-chevron">Meet
                     this Wild Beast!</button>
                 </div>
               </div>
@@ -169,7 +169,7 @@
               <div class="d-flex flex-column flex-lg-row align-items-center">
                 <img src="./assets/images/automotive/hondacityclarity.png" class="d-block" alt="Honda Clarity">
                 <div class="ps-md-4">
-                  <h4 class="g-b text-green">Get your ticket and Win the newest Honda!</h4>
+                  <h4 class="g-b text-red">Get your ticket and Win the newest Honda!</h4>
                   <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad soluta placeat sed
                     assumenda
                     voluptas iste
@@ -179,9 +179,9 @@
                   <p class="fs-xsmall m-0"><b class="h-b">Location: </b>San Francisco, US</p>
                   <br>
                   <button type="button"
-                    class="btn bg-green hover-brightness transition-03 rounded-0 rounded-start text-white h-b carousel-btn-1">50$</button>
+                    class="btn bg-red hover-brightness transition-03 rounded-0 rounded-start text-white h-b carousel-btn-1">50$</button>
                   <button type="button"
-                    class="btn bg-green hover-brightness transition-03 rounded-0 rounded-end text-white h-b carousel-btn-2 negative-margin-chevron">Meet
+                    class="btn bg-red hover-brightness transition-03 rounded-0 rounded-end text-white h-b carousel-btn-2 negative-margin-chevron">Meet
                     this Unique Vehicle!</button>
                 </div>
               </div>
@@ -191,7 +191,7 @@
               <div class="d-flex flex-column flex-lg-row align-items-center">
                 <img src="./assets/images/automotive/audiwhite.png" class="d-block" alt="Audi White">
                 <div class="ps-md-4">
-                  <h4 class="g-b text-green">Get your ticket and Win the newest Audi!</h4>
+                  <h4 class="g-b text-red">Get your ticket and Win the newest Audi!</h4>
                   <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad soluta placeat sed
                     assumenda
                     voluptas iste
@@ -201,9 +201,9 @@
                   <p class="fs-xsmall m-0"><b class="h-b">Location: </b>San Francisco, US</p>
                   <br>
                   <button type="button"
-                    class="btn bg-green hover-brightness transition-03 rounded-0 rounded-start text-white h-b carousel-btn-1">70$</button>
+                    class="btn bg-red hover-brightness transition-03 rounded-0 rounded-start text-white h-b carousel-btn-1">70$</button>
                   <button type="button"
-                    class="btn bg-green hover-brightness transition-03 rounded-0 rounded-end text-white h-b carousel-btn-2 negative-margin-chevron">Meet
+                    class="btn bg-red hover-brightness transition-03 rounded-0 rounded-end text-white h-b carousel-btn-2 negative-margin-chevron">Meet
                     this Stylish Guy!</button>
                 </div>
               </div>
@@ -213,14 +213,14 @@
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselHotAds" data-bs-slide="prev">
             <span aria-hidden="true">
-              <svg class="carousel-chevron2 text-green border rounded-circle" viewBox="0 0 24 24">
+              <svg class="carousel-chevron2 text-red border rounded-circle" viewBox="0 0 24 24">
                 <path fill="currentColor" d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
               </svg>
             </span>
           </button>
           <button class="carousel-control-next" type="button" data-bs-target="#carouselHotAds" data-bs-slide="next">
             <span aria-hidden="true">
-              <svg class="carousel-chevron2 text-green border rounded-circle" viewBox="0 0 24 24">
+              <svg class="carousel-chevron2 text-red border rounded-circle" viewBox="0 0 24 24">
                 <path fill="currentColor" d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
               </svg>
             </span>
@@ -252,7 +252,7 @@
             <img src="./assets/images/flat/flat1.png" class="w-100" alt="iPhone 12 Pro">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Wonderful Apartment for 1 person</h5>
-              <h6 class="text-green fs-small m-0">Rent</h6>
+              <h6 class="text-red fs-small m-0">Rent</h6>
               <p class="text-grey fs-small">From: San Francisco, US</p>
             </div>
           </a>
@@ -269,7 +269,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">390$</h5>
+            <h5 class="text-red m-0 pt-2">390$</h5>
           </div>
 
         </article>
@@ -280,7 +280,7 @@
             <img src="./assets/images/flat/flat2.png" class="w-100" alt="Macbook Pro">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Small but Comfy Flat for 1 person</h5>
-              <h6 class="text-green fs-small m-0">Rent</h6>
+              <h6 class="text-red fs-small m-0">Rent</h6>
               <p class="text-grey fs-small">From: California, US</p>
             </div>
           </a>
@@ -297,7 +297,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">315$</h5>
+            <h5 class="text-red m-0 pt-2">315$</h5>
           </div>
 
         </article>
@@ -308,7 +308,7 @@
             <img src="./assets/images/flat/flat3.png" class="w-100" alt="iPhone 12 Pro">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Best apartment for extroverts!</h5>
-              <h6 class="text-green fs-small m-0">Rent</h6>
+              <h6 class="text-red fs-small m-0">Rent</h6>
               <p class="text-grey fs-small">From: Anywhere, US</p>
             </div>
           </a>
@@ -325,7 +325,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">385$</h5>
+            <h5 class="text-red m-0 pt-2">385$</h5>
           </div>
 
         </article>
@@ -336,7 +336,7 @@
             <img src="./assets/images/flat/flat4.png" class="w-100" alt="Go Pro HERO4">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Cheapest Shared Room in the west</h5>
-              <h6 class="text-green fs-small m-0">Rent</h6>
+              <h6 class="text-red fs-small m-0">Rent</h6>
               <p class="text-grey fs-small">From: São Paulo, BR</p>
             </div>
           </a>
@@ -353,7 +353,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">120$</h5>
+            <h5 class="text-red m-0 pt-2">120$</h5>
           </div>
 
         </article>
@@ -364,7 +364,7 @@
             <img src="./assets/images/flat/flat5.png" class="w-100" alt="iPhone 12 Pro">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Cute Flat for nature lovers</h5>
-              <h6 class="text-green fs-small m-0">Rent</h6>
+              <h6 class="text-red fs-small m-0">Rent</h6>
               <p class="text-grey fs-small">From: Colorado, US</p>
             </div>
           </a>
@@ -381,7 +381,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">290$</h5>
+            <h5 class="text-red m-0 pt-2">290$</h5>
           </div>
 
         </article>
@@ -392,7 +392,7 @@
             <img src="./assets/images/flat/flat6.png" class="w-100" alt="Macbook Pro">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Modern Seaside Flat for almost free</h5>
-              <h6 class="text-green fs-small m-0">Rent</h6>
+              <h6 class="text-red fs-small m-0">Rent</h6>
               <p class="text-grey fs-small">From: California, US</p>
             </div>
           </a>
@@ -409,7 +409,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">110$</h5>
+            <h5 class="text-red m-0 pt-2">110$</h5>
           </div>
 
         </article>
@@ -429,7 +429,7 @@
                   <img src="./assets/images/flat/flat1.png" class="w-100" alt="iPhone 12 Pro">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Wonderful Apartment for 1 person</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: San Francisco, US</p>
                   </div>
                 </a>
@@ -446,7 +446,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">390$</h5>
+                  <h5 class="text-red m-0 pt-2">390$</h5>
                 </div>
 
               </article>
@@ -457,7 +457,7 @@
                   <img src="./assets/images/flat/flat2.png" class="w-100" alt="Macbook Pro">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Small but Comfy Flat for 1 person</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: California, US</p>
                   </div>
                 </a>
@@ -474,7 +474,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">315$</h5>
+                  <h5 class="text-red m-0 pt-2">315$</h5>
                 </div>
 
               </article>
@@ -485,7 +485,7 @@
                   <img src="./assets/images/flat/flat3.png" class="w-100" alt="iPhone 12 Pro">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Best apartment for extroverts!</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: Anywhere, US</p>
                   </div>
                 </a>
@@ -502,7 +502,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">385$</h5>
+                  <h5 class="text-red m-0 pt-2">385$</h5>
                 </div>
 
               </article>
@@ -513,7 +513,7 @@
                   <img src="./assets/images/flat/flat4.png" class="w-100" alt="Go Pro HERO4">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Cheapest Shared Room in the west</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: São Paulo, BR</p>
                   </div>
                 </a>
@@ -530,7 +530,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">120$</h5>
+                  <h5 class="text-red m-0 pt-2">120$</h5>
                 </div>
 
               </article>
@@ -546,7 +546,7 @@
                   <img src="./assets/images/flat/flat4.png" class="w-100" alt="Go Pro HERO4">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Cheapest Shared Room in the west</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: São Paulo, BR</p>
                   </div>
                 </a>
@@ -563,7 +563,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">120$</h5>
+                  <h5 class="text-red m-0 pt-2">120$</h5>
                 </div>
 
               </article>
@@ -574,7 +574,7 @@
                   <img src="./assets/images/flat/flat5.png" class="w-100" alt="iPhone 12 Pro">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Cute Flat for nature lovers</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: Colorado, US</p>
                   </div>
                 </a>
@@ -591,7 +591,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">290$</h5>
+                  <h5 class="text-red m-0 pt-2">290$</h5>
                 </div>
 
               </article>
@@ -602,7 +602,7 @@
                   <img src="./assets/images/flat/flat6.png" class="w-100" alt="Macbook Pro">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Modern Seaside Flat for almost free</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: California, US</p>
                   </div>
                 </a>
@@ -619,7 +619,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">110$</h5>
+                  <h5 class="text-red m-0 pt-2">110$</h5>
                 </div>
 
               </article>
@@ -630,7 +630,7 @@
                   <img src="./assets/images/flat/flat1.png" class="w-100" alt="iPhone 12 Pro">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Wonderful Apartment for 1 person</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: San Francisco, US</p>
                   </div>
                 </a>
@@ -647,7 +647,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">390$</h5>
+                  <h5 class="text-red m-0 pt-2">390$</h5>
                 </div>
 
               </article>
@@ -695,7 +695,7 @@
             <img src="./assets/images/flat/flat7.png" class="w-100" alt="Elven's Blessing High Shirt">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Flat with awesome-looking mirror</h5>
-              <h6 class="text-green fs-small m-0">Rent</h6>
+              <h6 class="text-red fs-small m-0">Rent</h6>
               <p class="text-grey fs-small">From: Paris, FR</p>
             </div>
           </a>
@@ -712,7 +712,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">480$</h5>
+            <h5 class="text-red m-0 pt-2">480$</h5>
           </div>
 
         </article>
@@ -723,7 +723,7 @@
             <img src="./assets/images/flat/flat8.png" class="w-100" alt="Red Cropped">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Apartment from the 80's</h5>
-              <h6 class="text-green fs-small m-0">Rent</h6>
+              <h6 class="text-red fs-small m-0">Rent</h6>
               <p class="text-grey fs-small">From: Las Vegas, US</p>
             </div>
           </a>
@@ -740,7 +740,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">535$</h5>
+            <h5 class="text-red m-0 pt-2">535$</h5>
           </div>
 
         </article>
@@ -751,7 +751,7 @@
             <img src="./assets/images/flat/flat9.png" class="w-100" alt="Military Style Black Trousers">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Flat with even more awesome mirror</h5>
-              <h6 class="text-green fs-small m-0">Rent</h6>
+              <h6 class="text-red fs-small m-0">Rent</h6>
               <p class="text-grey fs-small">From: Alabama, US</p>
             </div>
           </a>
@@ -768,7 +768,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">815$</h5>
+            <h5 class="text-red m-0 pt-2">815$</h5>
           </div>
 
         </article>
@@ -779,7 +779,7 @@
             <img src="./assets/images/flat/flat10.png" class="w-100" alt="Lucid Girly Dream Skirt">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Lucid Girly Dream Flat (with flowers!)</h5>
-              <h6 class="text-green fs-small m-0">Rent</h6>
+              <h6 class="text-red fs-small m-0">Rent</h6>
               <p class="text-grey fs-small">From: Italian City, IT</p>
             </div>
           </a>
@@ -796,7 +796,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">900$</h5>
+            <h5 class="text-red m-0 pt-2">900$</h5>
           </div>
 
         </article>
@@ -807,7 +807,7 @@
             <img src="./assets/images/flat/flat11.png" class="w-100" alt="Elven's Blessing High Shirt">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Horror Movie Flat with real blood in it</h5>
-              <h6 class="text-green fs-small m-0">Rent</h6>
+              <h6 class="text-red fs-small m-0">Rent</h6>
               <p class="text-grey fs-small">From: Hollywood, US</p>
             </div>
           </a>
@@ -824,7 +824,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">760$</h5>
+            <h5 class="text-red m-0 pt-2">760$</h5>
           </div>
 
         </article>
@@ -835,7 +835,7 @@
             <img src="./assets/images/flat/flat12.png" class="w-100" alt="Red Cropped">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Unrealistically Beautiful Flat</h5>
-              <h6 class="text-green fs-small m-0">Rent</h6>
+              <h6 class="text-red fs-small m-0">Rent</h6>
               <p class="text-grey fs-small">From: Las Vegas, US</p>
             </div>
           </a>
@@ -852,7 +852,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">1000$</h5>
+            <h5 class="text-red m-0 pt-2">1000$</h5>
           </div>
 
         </article>
@@ -872,7 +872,7 @@
                   <img src="./assets/images/flat/flat7.png" class="w-100" alt="Elven's Blessing High Shirt">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Flat with awesome-looking mirror</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: Paris, FR</p>
                   </div>
                 </a>
@@ -889,7 +889,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">480$</h5>
+                  <h5 class="text-red m-0 pt-2">480$</h5>
                 </div>
 
               </article>
@@ -900,7 +900,7 @@
                   <img src="./assets/images/flat/flat8.png" class="w-100" alt="Red Cropped">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Apartment from the 80's</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: Las Vegas, US</p>
                   </div>
                 </a>
@@ -917,7 +917,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">535$</h5>
+                  <h5 class="text-red m-0 pt-2">535$</h5>
                 </div>
 
               </article>
@@ -928,7 +928,7 @@
                   <img src="./assets/images/flat/flat9.png" class="w-100" alt="Military Style Black Trousers">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Flat with even more awesome mirror</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: Alabama, US</p>
                   </div>
                 </a>
@@ -945,7 +945,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">815$</h5>
+                  <h5 class="text-red m-0 pt-2">815$</h5>
                 </div>
 
               </article>
@@ -956,7 +956,7 @@
                   <img src="./assets/images/flat/flat10.png" class="w-100" alt="Lucid Girly Dream Skirt">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Lucid Girly Dream Flat (with flowers!)</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: Italian City, IT</p>
                   </div>
                 </a>
@@ -973,7 +973,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">900$</h5>
+                  <h5 class="text-red m-0 pt-2">900$</h5>
                 </div>
 
               </article>
@@ -989,7 +989,7 @@
                   <img src="./assets/images/flat/flat10.png" class="w-100" alt="Lucid Girly Dream Skirt">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Lucid Girly Dream Flat (with flowers!)</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: Italian City, IT</p>
                   </div>
                 </a>
@@ -1006,7 +1006,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">900$</h5>
+                  <h5 class="text-red m-0 pt-2">900$</h5>
                 </div>
 
               </article>
@@ -1017,7 +1017,7 @@
                   <img src="./assets/images/flat/flat11.png" class="w-100" alt="Elven's Blessing High Shirt">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Horror Movie Flat with real blood in it</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: Hollywood, US</p>
                   </div>
                 </a>
@@ -1034,7 +1034,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">760$</h5>
+                  <h5 class="text-red m-0 pt-2">760$</h5>
                 </div>
 
               </article>
@@ -1045,7 +1045,7 @@
                   <img src="./assets/images/flat/flat12.png" class="w-100" alt="Red Cropped">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Unrealistically Beautiful Flat</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: Las Vegas, US</p>
                   </div>
                 </a>
@@ -1062,7 +1062,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">1000$</h5>
+                  <h5 class="text-red m-0 pt-2">1000$</h5>
                 </div>
 
               </article>
@@ -1073,7 +1073,7 @@
                   <img src="./assets/images/flat/flat7.png" class="w-100" alt="Elven's Blessing High Shirt">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Flat with awesome-looking mirror</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: Paris, FR</p>
                   </div>
                 </a>
@@ -1090,7 +1090,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">480$</h5>
+                  <h5 class="text-red m-0 pt-2">480$</h5>
                 </div>
 
               </article>
@@ -1138,7 +1138,7 @@
             <img src="./assets/images/flat/flat13.png" class="w-100" alt="Apartment with amazon logo">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Apartment with amazon logo</h5>
-              <h6 class="text-green fs-small m-0">Rent</h6>
+              <h6 class="text-red fs-small m-0">Rent</h6>
               <p class="text-grey fs-small">From: Anywhere, WW</p>
             </div>
           </a>
@@ -1155,7 +1155,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">1130$</h5>
+            <h5 class="text-red m-0 pt-2">1130$</h5>
           </div>
 
         </article>
@@ -1166,7 +1166,7 @@
             <img src="./assets/images/flat/flat14.png" class="w-100" alt="Our favourite flat from the website">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Our favourite flat from the website</h5>
-              <h6 class="text-green fs-small m-0">Not for Rent</h6>
+              <h6 class="text-red fs-small m-0">Not for Rent</h6>
               <p class="text-grey fs-small">From: Las Vegas, US</p>
             </div>
           </a>
@@ -1183,7 +1183,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">1950$</h5>
+            <h5 class="text-red m-0 pt-2">1950$</h5>
           </div>
 
         </article>
@@ -1194,7 +1194,7 @@
             <img src="./assets/images/flat/flat15.png" class="w-100" alt="Another horror movie Flat">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Another horror movie Flat</h5>
-              <h6 class="text-green fs-small m-0">Rent</h6>
+              <h6 class="text-red fs-small m-0">Rent</h6>
               <p class="text-grey fs-small">From: Alabama, US</p>
             </div>
           </a>
@@ -1211,7 +1211,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">1700$</h5>
+            <h5 class="text-red m-0 pt-2">1700$</h5>
           </div>
 
         </article>
@@ -1222,7 +1222,7 @@
             <img src="./assets/images/flat/flat16.png" class="w-100" alt="Flat With Amazing View">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Flat With Amazing View</h5>
-              <h6 class="text-green fs-small m-0">Rent</h6>
+              <h6 class="text-red fs-small m-0">Rent</h6>
               <p class="text-grey fs-small">From: Anywhere, US</p>
             </div>
           </a>
@@ -1239,7 +1239,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">1890$</h5>
+            <h5 class="text-red m-0 pt-2">1890$</h5>
           </div>
 
         </article>
@@ -1250,7 +1250,7 @@
             <img src="./assets/images/flat/flat17.png" class="w-100" alt="Surprisingly Compact Apartment">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Surprisingly Compact Apartment</h5>
-              <h6 class="text-green fs-small m-0">Rent</h6>
+              <h6 class="text-red fs-small m-0">Rent</h6>
               <p class="text-grey fs-small">From: Brooklyn, US</p>
             </div>
           </a>
@@ -1267,7 +1267,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">1320$</h5>
+            <h5 class="text-red m-0 pt-2">1320$</h5>
           </div>
 
         </article>
@@ -1278,7 +1278,7 @@
             <img src="./assets/images/flat/flat18.png" class="w-100" alt="Modern Family Apartment">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Modern Family Apartment</h5>
-              <h6 class="text-green fs-small m-0">Rent</h6>
+              <h6 class="text-red fs-small m-0">Rent</h6>
               <p class="text-grey fs-small">From: Las Vegas, US</p>
             </div>
           </a>
@@ -1295,7 +1295,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">2000$</h5>
+            <h5 class="text-red m-0 pt-2">2000$</h5>
           </div>
 
         </article>
@@ -1315,7 +1315,7 @@
                   <img src="./assets/images/flat/flat13.png" class="w-100" alt="Apartment with amazon logo">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Apartment with amazon logo</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: Anywhere, WW</p>
                   </div>
                 </a>
@@ -1332,7 +1332,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">1130$</h5>
+                  <h5 class="text-red m-0 pt-2">1130$</h5>
                 </div>
 
               </article>
@@ -1343,7 +1343,7 @@
                   <img src="./assets/images/flat/flat14.png" class="w-100" alt="Our favourite flat from the website">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Our favourite flat from the website</h5>
-                    <h6 class="text-green fs-small m-0">Not for Rent</h6>
+                    <h6 class="text-red fs-small m-0">Not for Rent</h6>
                     <p class="text-grey fs-small">From: Las Vegas, US</p>
                   </div>
                 </a>
@@ -1360,7 +1360,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">1950$</h5>
+                  <h5 class="text-red m-0 pt-2">1950$</h5>
                 </div>
 
               </article>
@@ -1371,7 +1371,7 @@
                   <img src="./assets/images/flat/flat15.png" class="w-100" alt="Another horror movie Flat">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Another horror movie Flat</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: Alabama, US</p>
                   </div>
                 </a>
@@ -1388,7 +1388,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">1700$</h5>
+                  <h5 class="text-red m-0 pt-2">1700$</h5>
                 </div>
 
               </article>
@@ -1399,7 +1399,7 @@
                   <img src="./assets/images/flat/flat16.png" class="w-100" alt="Flat With Amazing View">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Flat With Amazing View</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: Anywhere, US</p>
                   </div>
                 </a>
@@ -1416,7 +1416,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">1890$</h5>
+                  <h5 class="text-red m-0 pt-2">1890$</h5>
                 </div>
 
               </article>
@@ -1432,7 +1432,7 @@
                   <img src="./assets/images/flat/flat16.png" class="w-100" alt="Flat With Amazing View">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Flat With Amazing View</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: Anywhere, US</p>
                   </div>
                 </a>
@@ -1449,7 +1449,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">1890$</h5>
+                  <h5 class="text-red m-0 pt-2">1890$</h5>
                 </div>
 
               </article>
@@ -1460,7 +1460,7 @@
                   <img src="./assets/images/flat/flat17.png" class="w-100" alt="Surprisingly Compact Apartment">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Surprisingly Compact Apartment</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: Brooklyn, US</p>
                   </div>
                 </a>
@@ -1477,7 +1477,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">1320$</h5>
+                  <h5 class="text-red m-0 pt-2">1320$</h5>
                 </div>
 
               </article>
@@ -1488,7 +1488,7 @@
                   <img src="./assets/images/flat/flat18.png" class="w-100" alt="Modern Family Apartment">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Modern Family Apartment</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: Las Vegas, US</p>
                   </div>
                 </a>
@@ -1505,7 +1505,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">2000$</h5>
+                  <h5 class="text-red m-0 pt-2">2000$</h5>
                 </div>
 
               </article>
@@ -1516,7 +1516,7 @@
                   <img src="./assets/images/flat/flat13.png" class="w-100" alt="Apartment with amazon logo">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Apartment with amazon logo</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: Anywhere, WW</p>
                   </div>
                 </a>
@@ -1533,7 +1533,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">1130$</h5>
+                  <h5 class="text-red m-0 pt-2">1130$</h5>
                 </div>
 
               </article>
@@ -1582,7 +1582,7 @@
 
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Flat in New York 3 rooms, 1 suite</h5>
-              <h6 class="text-green fs-small m-0">Rent</h6>
+              <h6 class="text-red fs-small m-0">Rent</h6>
               <p class="text-grey fs-small">From: New York, US</p>
             </div>
 
@@ -1600,7 +1600,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">3000$</h5>
+            <h5 class="text-red m-0 pt-2">3000$</h5>
           </div>
 
         </article>
@@ -1613,7 +1613,7 @@
 
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Family Apartment 2 suites in Texas</h5>
-              <h6 class="text-green fs-small m-0">Rent</h6>
+              <h6 class="text-red fs-small m-0">Rent</h6>
               <p class="text-grey fs-small">From: Texas, US</p>
             </div>
 
@@ -1631,7 +1631,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">2350$</h5>
+            <h5 class="text-red m-0 pt-2">2350$</h5>
           </div>
 
         </article>
@@ -1642,7 +1642,7 @@
             <img src="./assets/images/flat/flat21.png" class="w-100" alt="Beautiful Modern Studio for rent">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Beautiful Modern Studio for rent</h5>
-              <h6 class="text-green fs-small m-0">Rent</h6>
+              <h6 class="text-red fs-small m-0">Rent</h6>
               <p class="text-grey fs-small">From: Alabama, US</p>
             </div>
           </a>
@@ -1659,7 +1659,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">2100$</h5>
+            <h5 class="text-red m-0 pt-2">2100$</h5>
           </div>
 
         </article>
@@ -1670,7 +1670,7 @@
             <img src="./assets/images/flat/flat22.png" class="w-100" alt="Hyundai Creta Metallic Orange">
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">42 m² flat for single persons</h5>
-              <h6 class="text-green fs-small m-0">Rent</h6>
+              <h6 class="text-red fs-small m-0">Rent</h6>
               <p class="text-grey fs-small">From: Paris, FR</p>
             </div>
           </a>
@@ -1687,7 +1687,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">2780$</h5>
+            <h5 class="text-red m-0 pt-2">2780$</h5>
           </div>
 
         </article>
@@ -1700,7 +1700,7 @@
 
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Flat in New York 3 rooms, 1 suite</h5>
-              <h6 class="text-green fs-small m-0">Rent</h6>
+              <h6 class="text-red fs-small m-0">Rent</h6>
               <p class="text-grey fs-small">From: New York, US</p>
             </div>
 
@@ -1718,7 +1718,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">2900$</h5>
+            <h5 class="text-red m-0 pt-2">2900$</h5>
           </div>
 
         </article>
@@ -1731,7 +1731,7 @@
 
             <div class="px-3 pt-3">
               <h5 class="m-0 fs-medium">Family Apartment 2 suites in Texas</h5>
-              <h6 class="text-green fs-small m-0">Rent</h6>
+              <h6 class="text-red fs-small m-0">Rent</h6>
               <p class="text-grey fs-small">From: Texas, US</p>
             </div>
 
@@ -1749,7 +1749,7 @@
                 <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
               </ul>
             </div>
-            <h5 class="text-green m-0 pt-2">2350$</h5>
+            <h5 class="text-red m-0 pt-2">2350$</h5>
           </div>
 
         </article>
@@ -1770,7 +1770,7 @@
       
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Flat in New York 3 rooms, 1 suite</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: New York, US</p>
                   </div>
       
@@ -1788,7 +1788,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">3000$</h5>
+                  <h5 class="text-red m-0 pt-2">3000$</h5>
                 </div>
       
               </article>
@@ -1801,7 +1801,7 @@
       
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Family Apartment 2 suites in Texas</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: Texas, US</p>
                   </div>
       
@@ -1819,7 +1819,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">2350$</h5>
+                  <h5 class="text-red m-0 pt-2">2350$</h5>
                 </div>
       
               </article>
@@ -1830,7 +1830,7 @@
                   <img src="./assets/images/flat/flat21.png" class="w-100" alt="Beautiful Modern Studio for rent">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Beautiful Modern Studio for rent</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: Alabama, US</p>
                   </div>
                 </a>
@@ -1847,7 +1847,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">2100$</h5>
+                  <h5 class="text-red m-0 pt-2">2100$</h5>
                 </div>
       
               </article>
@@ -1858,7 +1858,7 @@
                   <img src="./assets/images/flat/flat22.png" class="w-100" alt="Hyundai Creta Metallic Orange">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">42 m² flat for single persons</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: Paris, FR</p>
                   </div>
                 </a>
@@ -1875,7 +1875,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">2780$</h5>
+                  <h5 class="text-red m-0 pt-2">2780$</h5>
                 </div>
       
               </article>
@@ -1891,7 +1891,7 @@
                   <img src="./assets/images/flat/flat22.png" class="w-100" alt="Hyundai Creta Metallic Orange">
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">42 m² flat for single persons</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: Paris, FR</p>
                   </div>
                 </a>
@@ -1908,7 +1908,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">2780$</h5>
+                  <h5 class="text-red m-0 pt-2">2780$</h5>
                 </div>
       
               </article>
@@ -1921,7 +1921,7 @@
       
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Flat in New York 3 rooms, 1 suite</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: New York, US</p>
                   </div>
       
@@ -1939,7 +1939,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">2900$</h5>
+                  <h5 class="text-red m-0 pt-2">2900$</h5>
                 </div>
       
               </article>
@@ -1952,7 +1952,7 @@
       
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Family Apartment 2 suites in Texas</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: Texas, US</p>
                   </div>
       
@@ -1970,7 +1970,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">2350$</h5>
+                  <h5 class="text-red m-0 pt-2">2350$</h5>
                 </div>
       
               </article>
@@ -1983,7 +1983,7 @@
       
                   <div class="px-3 pt-3">
                     <h5 class="m-0 fs-medium">Flat in New York 3 rooms, 1 suite</h5>
-                    <h6 class="text-green fs-small m-0">Rent</h6>
+                    <h6 class="text-red fs-small m-0">Rent</h6>
                     <p class="text-grey fs-small">From: New York, US</p>
                   </div>
       
@@ -2001,7 +2001,7 @@
                       <li><a class="dropdown-item text-center fs-small" href="#">More Details</a></li>
                     </ul>
                   </div>
-                  <h5 class="text-green m-0 pt-2">3000$</h5>
+                  <h5 class="text-red m-0 pt-2">3000$</h5>
                 </div>
       
               </article>
@@ -2047,7 +2047,7 @@
 
       <!-- Categories -->
       <div class="col-12 col-md-3 ps-md-4 mb-4">
-        <h6 class="text-green">CATEGORIES</h6>
+        <h6 class="text-red">CATEGORIES</h6>
         <hr class="my-1">
 
         <div class="d-md-flex justify-content-between pt-2">
@@ -2075,7 +2075,7 @@
 
       <!-- Navigation -->
       <div class="col-12 col-md-2 ps-md-4 mb-4">
-        <h6 class="text-green">NAVIGATION</h6>
+        <h6 class="text-red">NAVIGATION</h6>
         <hr class="my-1">
 
         <div class="d-md-flex justify-content-between pt-2">
@@ -2097,17 +2097,17 @@
       <div class="col-12 col-md-3 ps-md-4 pt-4">
 
         <div class="d-flex flex-column flex-md-row align-items-center justify-content-end mb-3">
-          <h6 class="text-green mb-0 me-3">COUNTRY</h6>
+          <h6 class="text-red mb-0 me-3">COUNTRY</h6>
           <button class="btn btn-outline-secondary h-b other-footer-btn" type="button">Switzerland</button>
         </div>
 
         <div class="d-flex flex-column flex-md-row align-items-center justify-content-end mb-3">
-          <h6 class="text-green mb-0 me-3">LANGUAGE</h6>
+          <h6 class="text-red mb-0 me-3">LANGUAGE</h6>
           <button class="btn btn-outline-secondary h-b other-footer-btn" type="button">English</button>
         </div>
 
         <div class="d-flex flex-column flex-md-row align-items-center justify-content-end">
-          <h6 class="text-green mb-0 me-3">CURRENCY</h6>
+          <h6 class="text-red mb-0 me-3">CURRENCY</h6>
           <button class="btn btn-outline-secondary h-b other-footer-btn" type="button">US Dollar</button>
         </div>
 

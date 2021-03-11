@@ -26,9 +26,6 @@
 .bg-red {
   background-color: #d35266; }
 
-.bg-green {
-  background-color: #30b360; }
-
 .bg-grey {
   background-color: #888; }
 
@@ -37,9 +34,6 @@
 
 .text-red {
   color: #d35266; }
-
-.text-green {
-  color: #30b360; }
 
 .text-grey {
   color: #888; }
@@ -121,7 +115,7 @@ a {
   z-index: 0; }
 
 header {
-  background: linear-gradient(160deg, #30b360 0%, #26a37f 100%); }
+  background-color: #d35266; }
 
 .navbar-brand {
   scale: 0.7; }
@@ -157,10 +151,10 @@ nav {
   flex-shrink: 0; }
 
 .carousel-btn-1 {
-  border-right: 1px solid #26a37f; }
+  border-right: 1px solid #b84273; }
 
 .carousel-btn-2 {
-  border-left: 1px solid #26a37f; }
+  border-left: 1px solid #b84273; }
 
 .carousel-chevron2 {
   width: 44px; }
@@ -181,7 +175,7 @@ nav {
 
 .btn-add:focus {
   background-color: #383838;
-  color: #30b360;
+  color: #d35266;
   box-shadow: none; }
 
 .btn-add::after {
@@ -208,8 +202,8 @@ nav {
   height: 12px; }
 
 .page-item.active .page-link {
-  background-color: #30b360;
-  border: 1px solid #30b360; }
+  background-color: #d35266;
+  border: 1px solid #d35266; }
 
 .border-md-only {
   border: 0; }
