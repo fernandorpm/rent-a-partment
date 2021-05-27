@@ -3,7 +3,7 @@
 > Rent A Partment is the Capstone Project assigned to me by Microverse for the 4th week of the HTML & CSS3 Module.
 > Original Design (Zattix) by: <a href="https://www.behance.net/gallery/24796463/ZATTIX" target="_blank">Mohammed Awad</a>.
 
-![Project Preview](rent-a-partment.gif)
+![Project Preview](./images/rent-a-partment.gif)
 
 The given design had a home page with a cellphone, tablet, and desktop views and a search results page with a desktop view.
 This means that the cellphone and tablet versions for the results page were created exclusively for this project.
@@ -52,7 +52,7 @@ Create a new folder/directory for the project
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/fernandorpm/rent-a-partment/issues/2).
+Feel free to check the [issues page](../../issues).
 
 
 ## Show your support
